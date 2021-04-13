@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usuario_perfil">/usuario/perfil/</string>
+    <string name="usuario_facebookuser">/usuario/facebookuser/</string>
+    <string name="usuario_fotografias">/usuario/fotografias/</string>
+    <string name="usuario_registro">/usuario/registro/</string>
+    <string name="usuario_ordenarfotosfavoritas">/usuario/ordenarfotosfavoritas/</string>
+    <string name="usuario_muro">/usuario/muro/</string>
+
+    <string name="quiz_chistes">/quiz/chistes/</string>
+    <string name="quiz_personalidad">/quiz/personalidad/</string>
+    <string name="quiz_justnow">/quiz/justnow/</string>
+
+    <string name="match_favorites">/match/favorites/</string>
+    <string name="match_hidden">/match/ocultos/</string>
+    <string name="match_matches">/match/matches/</string>
+    <string name="match_matchinfo">/match/matchinfo/</string>
+    <string name="match_blockuser">/match/bloqueado/</string>
+    <string name="match_favoritestatus">/match/estatusfavorito/</string>
+    <string name="match_descartado">/match/descartado/</string>
+
+    <string name="chat_list">/chat/listado/</string>
+    <string name="chat_messages">/chat/mensajes/</string>
+    <string name="chat_newmessages">/chat/mensajesnuevos/</string>
+    <string name="chat_sendmessage">/chat/mensaje/</string>
+
+    <string name="notificacion_saveuserdevice">/notificacion/dispositivousuario/</string>
+    <string name="notificacion_notificaciones">/notificacion/notificaciones/</string>
+</resources>

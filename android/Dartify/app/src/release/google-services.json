@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "996862829251",
+    "firebase_url": "https://dartify-89913.firebaseio.com",
+    "project_id": "dartify-89913",
+    "storage_bucket": "dartify-89913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996862829251:android:92a88bab66836fa812b876",
+        "android_client_info": {
+          "package_name": "com.mentit.dartify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996862829251-nsrhcrbi60n5dqf96pki640tttn9d3gp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mentit.dartify",
+            "certificate_hash": "d8c72c7de3f4bf779cffc47847f81a6f56ff3cd0"
+          }
+        },
+        {
+          "client_id": "996862829251-hh4vpjc9tp7eefn6ga9e3batossm6tc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8qA09OX1BULvRxte8u-7CrUkYpLYlXRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996862829251-hh4vpjc9tp7eefn6ga9e3batossm6tc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

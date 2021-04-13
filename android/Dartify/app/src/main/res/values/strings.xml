@@ -1,0 +1,122 @@
+<resources>
+    <string name="facebook_app_id">1928636764090361</string>
+    <string name="fb_login_protocol_scheme">fb1928636764090361</string>
+
+    <string name="app_name">Dartify</string>
+    <string name="facebook_login">Inicia sesión con Facebook</string>
+    <string name="personname">Nombre</string>
+    <string name="email">Correo electrónico</string>
+    <string name="state">Estado</string>
+    <string name="writegreeting">Escribe aquí tu saludo</string>
+    <string name="continuebutton">Continuar</string>
+    <string name="savebutton">Guardar</string>
+    <string name="myprofile">Mi Perfil</string>
+    <string name="definechemistry">Define tu Química</string>
+    <string name="mywall">Mi Muro</string>
+    <string name="justnow">¡Justo ahora!</string>
+    <string name="filter">Filtro</string>
+    <string name="myfavorites">Mis favoritos</string>
+    <string name="blockedusers">Usuarios bloqueados</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="deleteaccount">Cancelar cuenta</string>
+    <string name="dartify">Dartify</string>
+    <string name="iprefer">Prefiero conocer</string>
+    <string name="age_range">Rango de edad</string>
+    <string name="TOSTitle">Términos de Servicio y Aviso de Privacidad</string>
+    <string name="TOSAccept">Acepto Términos de Servicio y Aviso de Privacidad</string>
+    <string name="positiveButton">ACEPTO</string>
+    <string name="negativeButton">CANCELAR</string>
+    <string name="birthday">Fecha de nacimiento:</string>
+    <string name="now">Ahorita</string>
+    <string name="presstoselect">Presiona para elegir</string>
+    <string name="choosebirthday">Elige tu fecha de nacimiento</string>
+    <string name="choosesex">Elige tu sexo</string>
+    <string name="wrongemail">Correo incorrecto</string>
+    <string name="mustbelegal">Debes ser mayor de edad</string>
+    <string name="years">Años</string>
+    <string name="blockusertitle">¿Deseas bloquear al usuario?</string>
+    <string name="blockuseradvice">Al bloquearlo ya no lo volverás a ver</string>
+    <string name="blockuserreport">Escríbenos un reporte si crees que el usuario ha infringido los términos de uso de la aplicación.</string>
+    <string name="blockuserbuttonpositive">Bloquear</string>
+
+    <string name="title_activity_just_now">JustNowActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_just_now_quiz">JustNowQuizActivity</string>
+    <string name="justnow_instructions1">
+        Instrucciones:\n\n
+        - A continuación aparecerá una lista desordenada de colores los cuales tendrás que acomodar en la parte inferior de la pantalla.  \n\n
+        - Esta decisión influirá en tus resultados de búsqueda las próximas 24 horas. \n\n
+        - No tienes límite de tiempo.
+    </string>
+    <string name="justnow_instructions2">
+        Acomoda los colores según tu estado de ánimo, esto influirá en las sugerencias de perfiles las próximas 24 horas.
+    </string>
+    <string name="personality_test_instructions1">
+        Instrucciones:\n\n
+         - Se te mostrarán 2 grupos de palabras.\n\n
+         - De cada grupo elige el que más te guste.\n\n
+         - Recuerda que cuando se vacíe la barra se habrá terminado tu tiempo y deberás de volver a comenzar.
+    </string>
+    <string name="personality_test_instructions2">Lee cada lista de palabras, elige y selecciona continuar.</string>
+    <string name="humor_test_instructions1">
+        Instrucciones:
+        A continuación se te mostrará una lista de chistes y deberás ordenarlos de arriba hacia abajo, colocando en la parte superior al más gracioso y en la parte inferior el que menos te guste.
+        No tienes límite de tiempo.
+    </string>
+    <string name="humor_test_instructions2">
+        Acomoda los chistes
+    </string>
+    <string name="personality_test">Test de Personalidad</string>
+    <string name="humor_test">Test de humor</string>
+    <string name="title_activity_personality_quiz">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="define_your_chemistry">Define tu Química</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="gender">Sexo</string>
+    <string name="lookingfor">Buscando</string>
+    <string name="siblings">Hijos</string>
+    <string name="civilstatus">Estado Civil</string>
+    <string name="spirituality">Espiritualidad</string>
+    <string name="smoke">Fumo</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="scholarship">Escolaridad</string>
+    <string name="occupation">Ocupación</string>
+    <string name="race">Raza</string>
+    <string name="haircolor">Cabello</string>
+    <string name="hairtype">Tipo de cabello</string>
+    <string name="skin">Piel</string>
+    <string name="height">Estatura</string>
+    <string name="weight">Peso</string>
+
+
+    <!-- TAGS -->
+    <string name="tag">t0</string>
+    <string name="location">Ubicación</string>
+    <string name="send">Enviar</string>
+    <string name="write_a_message">Escribe un mensaje</string>
+
+
+    <!-- FCM-->
+    <string name="default_notification_channel_id" translatable="false">dartify_default_channel</string>
+    <string name="messages_notification_channel_id" translatable="false">dartify_messages_channel</string>
+    <string name="default_notification_channel_name" translatable="true">General</string>
+    <string name="messages_notification_channel_name" translatable="true">Mensajes</string>
+    <string name="msg_subscribed">Suscrito a notificaciones</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="msg_subscribe_failed">Falla al inscribir</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>

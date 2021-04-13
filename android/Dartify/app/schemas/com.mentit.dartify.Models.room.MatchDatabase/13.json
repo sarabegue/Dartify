@@ -1,0 +1,104 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 13,
+    "identityHash": "de52d2d725a78e39806357f4b5ec7b1b",
+    "entities": [
+      {
+        "tableName": "MatchCard",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `remoteId` TEXT, `userid1` INTEGER NOT NULL, `userid2` INTEGER NOT NULL, `texto1` TEXT, `texto2` TEXT, `texto3` TEXT, `resource1` TEXT, `resource2` TEXT, `oculto` INTEGER, `visto` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "remoteId",
+            "columnName": "remoteId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "userid1",
+            "columnName": "userid1",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userid2",
+            "columnName": "userid2",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "texto1",
+            "columnName": "texto1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto2",
+            "columnName": "texto2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto3",
+            "columnName": "texto3",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "resource1",
+            "columnName": "resource1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "resource2",
+            "columnName": "resource2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "oculto",
+            "columnName": "oculto",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "visto",
+            "columnName": "visto",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_MatchCard_userid1_userid2",
+            "unique": true,
+            "columnNames": [
+              "userid1",
+              "userid2"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_MatchCard_userid1_userid2` ON `${TABLE_NAME}` (`userid1`, `userid2`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'de52d2d725a78e39806357f4b5ec7b1b')"
+    ]
+  }
+}

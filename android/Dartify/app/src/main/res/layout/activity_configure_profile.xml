@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_lightgray"
+    tools:context=".Activities.JustNowQuizActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingBottom="50dp"
+            android:scaleType="centerInside"
+            tools:context=".Activities.ConfigureProfileActivity">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="40dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/dartifylogo" />
+
+            <EditText
+                android:id="@+id/editTextSaludo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/writegreeting"
+                android:inputType="textMultiLine"
+                android:theme="@style/TextForm" />
+
+            <TextView
+                android:id="@+id/textViewPrefer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextSaludo"
+                android:layout_marginBottom="5dp"
+                android:text="@string/iprefer"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerPrefer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewPrefer"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textViewRange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerPrefer"
+                android:layout_marginBottom="5dp"
+                android:text="@string/age_range"
+                android:theme="@style/LabelForm" />
+
+            <TextView
+                android:id="@+id/textViewRange2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewRange"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_edittext"
+                android:textAlignment="center"
+                android:theme="@style/LabelForm" />
+
+            <io.apptik.widget.MultiSlider
+                android:id="@+id/range_slider1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewRange2"
+                app:drawThumbsApart="true"
+                app:stepsThumbsApart="5"
+                app:thumbColor="@color/color_accent"
+                app:thumbNumber="2" />
+
+            <TextView
+                android:id="@+id/textViewHState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/range_slider1"
+                android:layout_marginBottom="5dp"
+                android:text="@string/state"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewHState"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerState"
+                android:layout_marginBottom="5dp"
+                android:text="@string/height"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewHeight"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerHeight"
+                android:layout_marginBottom="5dp"
+                android:text="@string/weight"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewWeight"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewSkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerWeight"
+                android:layout_marginBottom="5dp"
+                android:text="@string/skin"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerSkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewSkin"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewHairType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerSkin"
+                android:layout_marginBottom="5dp"
+                android:text="@string/hairtype"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerHairType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewHairType"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewHairColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerHairType"
+                android:layout_marginBottom="5dp"
+                android:text="@string/haircolor"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerHairColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewHairColor"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewRace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerHairColor"
+                android:layout_marginBottom="5dp"
+                android:text="@string/race"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerRace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewRace"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewOccupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerRace"
+                android:layout_marginBottom="5dp"
+                android:text="@string/occupation"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerOccupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewOccupation"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewScholarship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerOccupation"
+                android:layout_marginBottom="5dp"
+                android:text="@string/scholarship"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerScholarship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewScholarship"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewAlcohol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerScholarship"
+                android:layout_marginBottom="5dp"
+                android:text="@string/alcohol"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerAlcohol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewAlcohol"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewSmoke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerAlcohol"
+                android:layout_marginBottom="5dp"
+                android:text="@string/smoke"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerSmoke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewSmoke"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewSpirituality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerSmoke"
+                android:layout_marginBottom="5dp"
+                android:text="@string/spirituality"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerSpirituality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSpirituality"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewCivilStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerSpirituality"
+                android:layout_marginBottom="5dp"
+                android:text="@string/civilstatus"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerCivilStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewCivilStatus"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewSiblings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinnerCivilStatus"
+                android:layout_marginBottom="5dp"
+                android:text="@string/siblings"
+                android:theme="@style/LabelForm" />
+
+            <Spinner
+                android:id="@+id/spinnerSiblings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSiblings"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_edittext"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/actionbutton"
+        android:text="@string/savebutton"
+        android:textColor="@color/white" />
+</RelativeLayout>

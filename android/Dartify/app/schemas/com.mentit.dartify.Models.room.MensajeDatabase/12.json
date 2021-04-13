@@ -1,0 +1,127 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 12,
+    "identityHash": "9ba01ecc7935447af3547554d5ed03ff",
+    "entities": [
+      {
+        "tableName": "MensajeChat",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `remoteId` TEXT, `idRemitente` INTEGER NOT NULL, `idDestinatario` INTEGER NOT NULL, `strMensaje` TEXT, `strChatroom` TEXT, `strFecha` TEXT, `strResource1` TEXT, `strFirstname1` TEXT, `strResource2` TEXT, `strFirstname2` TEXT, `leido` INTEGER NOT NULL, `fromme` INTEGER NOT NULL, `oculto` INTEGER, `tipo` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "remoteId",
+            "columnName": "remoteId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "idRemitente",
+            "columnName": "idRemitente",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idDestinatario",
+            "columnName": "idDestinatario",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strMensaje",
+            "columnName": "strMensaje",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strChatroom",
+            "columnName": "strChatroom",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strFecha",
+            "columnName": "strFecha",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strResource1",
+            "columnName": "strResource1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strFirstname1",
+            "columnName": "strFirstname1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strResource2",
+            "columnName": "strResource2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strFirstname2",
+            "columnName": "strFirstname2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "leido",
+            "columnName": "leido",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fromme",
+            "columnName": "fromme",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "oculto",
+            "columnName": "oculto",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "tipo",
+            "columnName": "tipo",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_MensajeChat_remoteId",
+            "unique": true,
+            "columnNames": [
+              "remoteId"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_MensajeChat_remoteId` ON `${TABLE_NAME}` (`remoteId`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '9ba01ecc7935447af3547554d5ed03ff')"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 12,
+    "identityHash": "ef39a53595f4ebc3ed320294bb49a63d",
+    "entities": [
+      {
+        "tableName": "FavoriteCard",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `strRemoteId` TEXT, `strResource` TEXT, `strFirstname` TEXT, `strFecha` TEXT, `longUserId1` INTEGER NOT NULL, `longUserId2` INTEGER NOT NULL, `oculto` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "strRemoteId",
+            "columnName": "strRemoteId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strResource",
+            "columnName": "strResource",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strFirstname",
+            "columnName": "strFirstname",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strFecha",
+            "columnName": "strFecha",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "longUserId1",
+            "columnName": "longUserId1",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "longUserId2",
+            "columnName": "longUserId2",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "oculto",
+            "columnName": "oculto",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_FavoriteCard_longUserId1_longUserId2",
+            "unique": true,
+            "columnNames": [
+              "longUserId1",
+              "longUserId2"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_FavoriteCard_longUserId1_longUserId2` ON `${TABLE_NAME}` (`longUserId1`, `longUserId2`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'ef39a53595f4ebc3ed320294bb49a63d')"
+    ]
+  }
+}

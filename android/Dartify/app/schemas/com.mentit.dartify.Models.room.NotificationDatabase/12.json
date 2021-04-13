@@ -1,0 +1,111 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 12,
+    "identityHash": "3043fb98a64956275870682ca8418318",
+    "entities": [
+      {
+        "tableName": "NotificationCard",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `remoteId` TEXT, `texto1` TEXT, `texto2` TEXT, `resource1` TEXT, `resource2` TEXT, `fecha` TEXT, `leido` INTEGER NOT NULL, `tipo` INTEGER NOT NULL, `userid1` INTEGER NOT NULL, `userid2` INTEGER NOT NULL, `oculto` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "remoteId",
+            "columnName": "remoteId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto1",
+            "columnName": "texto1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto2",
+            "columnName": "texto2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "resource1",
+            "columnName": "resource1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "resource2",
+            "columnName": "resource2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "fecha",
+            "columnName": "fecha",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "leido",
+            "columnName": "leido",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tipo",
+            "columnName": "tipo",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userid1",
+            "columnName": "userid1",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userid2",
+            "columnName": "userid2",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "oculto",
+            "columnName": "oculto",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_NotificationCard_userid1_userid2_tipo",
+            "unique": true,
+            "columnNames": [
+              "userid1",
+              "userid2",
+              "tipo"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_NotificationCard_userid1_userid2_tipo` ON `${TABLE_NAME}` (`userid1`, `userid2`, `tipo`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '3043fb98a64956275870682ca8418318')"
+    ]
+  }
+}

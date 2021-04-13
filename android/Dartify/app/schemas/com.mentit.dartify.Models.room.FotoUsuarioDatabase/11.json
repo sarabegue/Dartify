@@ -1,0 +1,105 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 11,
+    "identityHash": "f30f3a4191c7a6fb6a0f32066be88659",
+    "entities": [
+      {
+        "tableName": "FotoUsuario",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `userid1` INTEGER NOT NULL, `remoteId` TEXT, `resource1` TEXT, `strFecha` TEXT, `numorden` INTEGER NOT NULL, `numtipo` INTEGER NOT NULL, `texto1` TEXT, `texto2` TEXT, `texto3` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userid1",
+            "columnName": "userid1",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "remoteId",
+            "columnName": "remoteId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "resource1",
+            "columnName": "resource1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strFecha",
+            "columnName": "strFecha",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "numorden",
+            "columnName": "numorden",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numtipo",
+            "columnName": "numtipo",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "texto1",
+            "columnName": "texto1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto2",
+            "columnName": "texto2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto3",
+            "columnName": "texto3",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_FotoUsuario_remoteId",
+            "unique": true,
+            "columnNames": [
+              "remoteId"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_FotoUsuario_remoteId` ON `${TABLE_NAME}` (`remoteId`)"
+          },
+          {
+            "name": "index_FotoUsuario_userid1",
+            "unique": false,
+            "columnNames": [
+              "userid1"
+            ],
+            "createSql": "CREATE  INDEX `index_FotoUsuario_userid1` ON `${TABLE_NAME}` (`userid1`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f30f3a4191c7a6fb6a0f32066be88659')"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "232027992272",
+    "firebase_url": "https://dart-f4880.firebaseio.com",
+    "project_id": "dart-f4880",
+    "storage_bucket": "dart-f4880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232027992272:android:433f875fcfd40731",
+        "android_client_info": {
+          "package_name": "com.mentit.dartify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232027992272-084a6v22ea0ff9qu2rvhovq3lnlrhs0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mentit.dartify",
+            "certificate_hash": "dce2e65a5a21e9a9dd520f1fbee5691547b1a7ce"
+          }
+        },
+        {
+          "client_id": "232027992272-3qjnn7pjih55vmqpkf2i04269ko69267.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUuVrL4ibmfqe1TjFgdAm6-b5s-uv-FOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232027992272-3qjnn7pjih55vmqpkf2i04269ko69267.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

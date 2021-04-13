@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_lightgray"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scaleType="centerInside"
+        tools:context="com.mentit.dartify.Activities.FacebookLoginActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="40dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/dartifylogo" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginBottom="5dp"
+            android:text="Nombre"
+            android:theme="@style/LabelForm" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewName"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/personname"
+            android:inputType="textPersonName"
+            android:theme="@style/TextForm" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextName"
+            android:layout_marginBottom="5dp"
+            android:text="Correo electrónico"
+            android:theme="@style/LabelForm" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEmail"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:theme="@style/TextForm" />
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_marginBottom="5dp"
+            android:text="Soy"
+            android:theme="@style/LabelForm" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewGender"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonGenderFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/female_radiobutton"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGenderMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/male_radiobutton"
+                android:button="@null" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroupGender"
+            android:layout_marginBottom="5dp"
+            android:text="@string/birthday"
+            android:theme="@style/LabelForm" />
+
+        <TextView
+            android:id="@+id/textViewBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDate"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:theme="@style/LabelForm" />
+
+        <TextView
+            android:id="@+id/textViewState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBirthday"
+            android:layout_marginBottom="5dp"
+            android:text="@string/state"
+            android:theme="@style/LabelForm" />
+
+        <Spinner
+            android:id="@+id/spinnerState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewState"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/textViewPrefer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerState"
+            android:layout_marginBottom="5dp"
+            android:text="@string/iprefer"
+            android:theme="@style/LabelForm" />
+
+        <Spinner
+            android:id="@+id/spinnerPrefer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPrefer"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textViewRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerPrefer"
+            android:layout_marginBottom="5dp"
+            android:text="@string/age_range"
+            android:theme="@style/LabelForm" />
+
+        <TextView
+            android:id="@+id/textViewRange2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRange"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:textAlignment="center"
+            android:theme="@style/LabelForm" />
+
+        <io.apptik.widget.MultiSlider
+            android:id="@+id/range_slider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRange2"
+            app:drawThumbsApart="true"
+            app:stepsThumbsApart="5"
+            app:thumbColor="@color/color_accent"
+            app:thumbNumber="2" />
+
+        <EditText
+            android:id="@+id/editTextSaludo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/range_slider1"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/writegreeting"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:theme="@style/TextForm" />
+
+        <CheckBox
+            android:id="@+id/checkTOS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextSaludo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/TOSAccept"
+            android:textSize="16sp"
+            android:theme="@style/LabelForm" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkTOS"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:minWidth="250dp"
+            android:text="@string/continuebutton"
+            android:theme="@style/ActivityLoginButton" />
+    </RelativeLayout>
+</ScrollView>

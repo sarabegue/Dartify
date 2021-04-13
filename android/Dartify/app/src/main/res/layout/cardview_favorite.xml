@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cardviewFavorite"
+    android:layout_width="155dp"
+    android:layout_height="155dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/transparent"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewFavoritePerson"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true" />
+
+        <ImageView
+            android:id="@+id/imageViewFavoriteDelete"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/favorite_cross" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_bluegray_alpha"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewFavoriteLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textViewFavoriteLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+<!--
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/favorite_star" />-->
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

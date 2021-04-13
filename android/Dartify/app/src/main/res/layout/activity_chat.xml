@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_lightgray"
+    tools:context=".Activities.ChatActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.01" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineH4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.99" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineV0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/avatarbg"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH1"
+        app:layout_constraintLeft_toLeftOf="@id/guidelineV0"
+        app:layout_constraintRight_toRightOf="@id/guidelineV4"
+        app:layout_constraintTop_toTopOf="@id/guidelineH0" />
+
+    <ImageView
+        android:id="@+id/imageViewAvatar1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH1"
+        app:layout_constraintLeft_toLeftOf="@id/guidelineV0"
+        app:layout_constraintTop_toTopOf="@id/guidelineH0" />
+
+    <TextView
+        android:id="@+id/textviewFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH1"
+        app:layout_constraintTop_toTopOf="@id/guidelineH0" />
+
+    <ImageButton
+        android:id="@+id/blockButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/block_button"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH1"
+        app:layout_constraintRight_toRightOf="@id/guidelineV4"
+        app:layout_constraintTop_toTopOf="@id/guidelineH0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerChat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH3"
+        app:layout_constraintLeft_toLeftOf="@id/guidelineV0"
+        app:layout_constraintRight_toRightOf="@id/guidelineV4"
+        app:layout_constraintTop_toTopOf="@id/guidelineH1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/chat_inputtext_white"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH4"
+        app:layout_constraintLeft_toLeftOf="@id/guidelineV0"
+        app:layout_constraintRight_toRightOf="@id/guidelineV4"
+        app:layout_constraintTop_toTopOf="@id/guidelineH3" />
+
+    <androidx.emoji.widget.EmojiEditText
+        android:id="@+id/textMessage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:hint="@string/write_a_message"
+        android:inputType="text"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineH4"
+        app:layout_constraintLeft_toLeftOf="@id/guidelineV0"
+        app:layout_constraintRight_toLeftOf="@id/guidelineV2"
+        app:layout_constraintTop_toBottomOf="@id/guidelineH3" />
+
+    <ImageView
+        android:id="@+id/imageViewSticker"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/heart_action"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH4"
+        app:layout_constraintLeft_toRightOf="@id/guidelineV2"
+        app:layout_constraintRight_toLeftOf="@id/guidelineV3"
+        app:layout_constraintTop_toTopOf="@id/guidelineH3" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/chat_sendmessage_green"
+        android:text="@string/send"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/textMessage"
+        app:layout_constraintLeft_toRightOf="@id/guidelineV3"
+        app:layout_constraintRight_toRightOf="@id/guidelineV4"
+        app:layout_constraintTop_toTopOf="@id/textMessage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_lightgray"
+    tools:context=".Activities.StoreActivity">
+
+    <ImageView
+        android:id="@+id/imageViewEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contraintlayouthome"
+        android:src="@drawable/m5" />
+
+    <TextView
+        android:id="@+id/textviewHomeLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewEmpty"
+        android:layout_centerHorizontal="true"
+        android:text="No tienes sugerencias todavía"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textviewHomeLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewHomeLine1"
+        android:layout_centerHorizontal="true"
+        android:text="Completa tu perfil para que aparezcan"
+        android:textSize="16sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contraintlayouthome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:orientation="horizontal"
+            android:paddingRight="18dp"
+            android:paddingBottom="18dp"
+            app:layout_constraintBottom_toBottomOf="@id/recyclerViewPeople"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <ImageView
+                android:id="@+id/imageViewFavoritePerson"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="5dp"
+                android:src="@drawable/home_disabled_star"
+                android:background="@drawable/rounded_button"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/imageViewSticker"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:padding="5dp"
+                android:src="@drawable/home_disabled_heart"
+                android:background="@drawable/rounded_button"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/imageViewChat"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="5dp"
+                android:src="@drawable/home_disabled_chat"
+                android:background="@drawable/rounded_button"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/guidelineH0"
+            app:layout_constraintLeft_toLeftOf="@id/guidelineH2"
+            app:layout_constraintRight_toRightOf="@id/guidelineH3"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/buttonJustNow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/home_enabled_justnow"
+                android:scaleType="fitStart" />
+
+            <ImageView
+                android:id="@+id/buttonFilter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/home_enabled_filter"
+                android:scaleType="fitStart" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineH0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineH1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineH2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="1" />
+
+        <com.yuyakaido.android.cardstackview.CardStackView
+            android:id="@+id/recyclerViewPeople"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@id/guidelineH1"
+            app:layout_constraintLeft_toLeftOf="@id/guidelineH2"
+            app:layout_constraintRight_toRightOf="@id/guidelineH3"
+            app:layout_constraintTop_toBottomOf="@id/guidelineH0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

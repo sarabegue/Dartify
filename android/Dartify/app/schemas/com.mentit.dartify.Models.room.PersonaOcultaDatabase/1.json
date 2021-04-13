@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "c5a930af7513d725284681398e583109",
+    "entities": [
+      {
+        "tableName": "PersonaOculta",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`userid1` INTEGER NOT NULL, `userid2` INTEGER NOT NULL, `bloqueado` INTEGER, `favorito` INTEGER, `descartado` INTEGER, PRIMARY KEY(`userid1`, `userid2`))",
+        "fields": [
+          {
+            "fieldPath": "userid1",
+            "columnName": "userid1",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userid2",
+            "columnName": "userid2",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bloqueado",
+            "columnName": "bloqueado",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "favorito",
+            "columnName": "favorito",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "descartado",
+            "columnName": "descartado",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "userid1",
+            "userid2"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c5a930af7513d725284681398e583109')"
+    ]
+  }
+}

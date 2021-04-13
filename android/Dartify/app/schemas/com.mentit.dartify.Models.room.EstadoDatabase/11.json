@@ -1,0 +1,99 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 11,
+    "identityHash": "98db4f45b1ada7a719e562a9fa4e4ad4",
+    "entities": [
+      {
+        "tableName": "EstadoCard",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `userid1` INTEGER NOT NULL, `remoteId` TEXT, `texto1` TEXT, `texto2` TEXT, `texto3` TEXT, `resource1` TEXT, `strFecha` TEXT, `resource2` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userid1",
+            "columnName": "userid1",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "remoteId",
+            "columnName": "remoteId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto1",
+            "columnName": "texto1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto2",
+            "columnName": "texto2",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "texto3",
+            "columnName": "texto3",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "resource1",
+            "columnName": "resource1",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strFecha",
+            "columnName": "strFecha",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "resource2",
+            "columnName": "resource2",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_EstadoCard_remoteId",
+            "unique": true,
+            "columnNames": [
+              "remoteId"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_EstadoCard_remoteId` ON `${TABLE_NAME}` (`remoteId`)"
+          },
+          {
+            "name": "index_EstadoCard_userid1",
+            "unique": false,
+            "columnNames": [
+              "userid1"
+            ],
+            "createSql": "CREATE  INDEX `index_EstadoCard_userid1` ON `${TABLE_NAME}` (`userid1`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '98db4f45b1ada7a719e562a9fa4e4ad4')"
+    ]
+  }
+}

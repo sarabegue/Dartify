@@ -1,0 +1,52 @@
+<resources>
+    <string name="sharedpreferencesname">DARTIFY</string>
+    <string name="user_facebookid">user_facebookid</string>
+    <string name="user_id">user_id</string>
+    <string name="user_name">user_name</string>
+    <string name="user_email">user_email</string>
+    <string name="user_birthday">user_birthday</string>
+    <string name="user_gender">user_gender</string>
+    <string name="user_prefer">user_prefer</string>
+    <string name="user_minage">user_minage</string>
+    <string name="user_maxage">user_maxage</string>
+    <string name="user_location">user_location</string>
+    <string name="user_height">user_height</string>
+    <string name="user_weight">user_weight</string>
+    <string name="user_skincolor">user_skincolor</string>
+    <string name="user_hairtype">user_hairtype</string>
+    <string name="user_haircolor">user_haircolor</string>
+    <string name="user_race">user_race</string>
+    <string name="user_occupation">user_occupation</string>
+    <string name="user_scholarship">user_scholarship</string>
+    <string name="user_alcohol">user_alcohol</string>
+    <string name="user_smoke">user_smoke</string>
+    <string name="user_spirituality">user_spirituality</string>
+    <string name="user_civilstate">user_civilstate</string>
+    <string name="user_siblings">user_siblings</string>
+
+    <string name="photo_favorite0_source">photo_favorite0_source</string>
+    <string name="photo_favorite0_order">photo_favorite0_order</string>
+    <string name="photo_favorite0_id">photo_favorite0_id</string>
+    <string name="photo_favorite1_source">photo_favorite1_source</string>
+    <string name="photo_favorite1_order">photo_favorite1_order</string>
+    <string name="photo_favorite1_id">photo_favorite1_id</string>
+    <string name="photo_favorite2_source">photo_favorite2_source</string>
+    <string name="photo_favorite2_order">photo_favorite2_order</string>
+    <string name="photo_favorite2_id">photo_favorite2_id</string>
+    <string name="photo_favorite3_source">photo_favorite3_source</string>
+    <string name="photo_favorite3_order">photo_favorite3_order</string>
+    <string name="photo_favorite3_id">photo_favorite3_id</string>
+    <string name="photo_favorite4_source">photo_favorite4_source</string>
+    <string name="photo_favorite4_order">photo_favorite4_order</string>
+    <string name="photo_favorite4_id">photo_favorite4_id</string>
+
+    <string name="photo_database">photo_database</string>
+    <string name="favorites_database">favorites_database</string>
+    <string name="matches_database">matches_database</string>
+    <string name="chatlist_database">chatlist_database</string>
+    <string name="messages_database">messages_database</string>
+
+    <string name="download_chat">download_chat</string>
+
+
+</resources>

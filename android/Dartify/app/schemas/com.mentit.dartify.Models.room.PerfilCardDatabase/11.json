@@ -1,0 +1,181 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 11,
+    "identityHash": "1883579c62c62202e433afc9b9920bfd",
+    "entities": [
+      {
+        "tableName": "PerfilCard",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `userid` INTEGER NOT NULL, `facebookid` TEXT, `stremail` TEXT, `datefechanacimiento` TEXT, `strgender` TEXT, `strfirstname` TEXT, `prefer` INTEGER NOT NULL, `minedad` INTEGER NOT NULL, `maxedad` INTEGER NOT NULL, `ubicacion` INTEGER NOT NULL, `height` INTEGER NOT NULL, `weight` INTEGER NOT NULL, `skin` INTEGER NOT NULL, `hair` INTEGER NOT NULL, `haircolor` INTEGER NOT NULL, `race` INTEGER NOT NULL, `occupation` INTEGER NOT NULL, `scholarship` INTEGER NOT NULL, `alcohol` INTEGER NOT NULL, `smoke` INTEGER NOT NULL, `spirituality` INTEGER NOT NULL, `civilstate` INTEGER NOT NULL, `siblings` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userid",
+            "columnName": "userid",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facebookid",
+            "columnName": "facebookid",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "stremail",
+            "columnName": "stremail",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "datefechanacimiento",
+            "columnName": "datefechanacimiento",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strgender",
+            "columnName": "strgender",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "strfirstname",
+            "columnName": "strfirstname",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "prefer",
+            "columnName": "prefer",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "minedad",
+            "columnName": "minedad",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "maxedad",
+            "columnName": "maxedad",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ubicacion",
+            "columnName": "ubicacion",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "height",
+            "columnName": "height",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "weight",
+            "columnName": "weight",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skin",
+            "columnName": "skin",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hair",
+            "columnName": "hair",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "haircolor",
+            "columnName": "haircolor",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "race",
+            "columnName": "race",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "occupation",
+            "columnName": "occupation",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scholarship",
+            "columnName": "scholarship",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "alcohol",
+            "columnName": "alcohol",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "smoke",
+            "columnName": "smoke",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "spirituality",
+            "columnName": "spirituality",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "civilstate",
+            "columnName": "civilstate",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "siblings",
+            "columnName": "siblings",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [
+          {
+            "name": "index_PerfilCard_userid",
+            "unique": true,
+            "columnNames": [
+              "userid"
+            ],
+            "createSql": "CREATE UNIQUE INDEX `index_PerfilCard_userid` ON `${TABLE_NAME}` (`userid`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1883579c62c62202e433afc9b9920bfd')"
+    ]
+  }
+}

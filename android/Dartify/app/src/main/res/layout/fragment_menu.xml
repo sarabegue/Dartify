@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_menubackground"
+    android:orientation="vertical"
+    tools:context="com.mentit.dartify.Fragments.MenuFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/dartifylogo_white" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/avatarbg"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewAvatar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+                <TextView
+                    android:id="@+id/textviewFirstName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/storeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/premiumplaceholder" />
+
+            <Button
+                android:id="@+id/buttonQuimica"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:stateListAnimator="@null"
+                android:text="@string/definechemistry"
+                android:theme="@style/FragmentMenuButton" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:theme="@style/HorizontalDivider"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buttonMyWall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:text="@string/mywall"
+                android:theme="@style/FragmentMenuButton"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buttonJustNow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:text="@string/justnow"
+                android:theme="@style/FragmentMenuButton"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/buttonFilter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:text="@string/filter"
+                android:theme="@style/FragmentMenuButton"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buttonBlockedUsers"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:text="@string/blockedusers"
+                android:theme="@style/FragmentMenuButton"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:theme="@style/HorizontalDivider" />
+
+            <Button
+                android:id="@+id/buttonLogout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:text="@string/logout"
+                android:theme="@style/FragmentMenuButton" />
+
+            <Button
+                android:id="@+id/buttonDeleteAccount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:text="@string/deleteaccount"
+                android:theme="@style/FragmentMenuButton"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

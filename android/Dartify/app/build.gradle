@@ -111,6 +111,9 @@ dependencies {
     annotationProcessor "androidx.room:room-compiler:$room_version"
     testImplementation "androidx.room:room-testing:$room_version"
 
+    def billing_version = "4.0.0"
+    implementation "com.android.billingclient:billing:$billing_version"
+
     //POR REMOVER
 
     //implementation 'com.crashlytics.sdk.android:crashlytics:2.9.5'

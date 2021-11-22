@@ -16,10 +16,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.annotation.NonNull;
 
 import com.facebook.login.LoginManager;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.tabs.TabLayout;
-import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.mentit.dartify.Adapters.PagerAdapter;
 import com.mentit.dartify.Fragments.ChatListFragment;
@@ -207,22 +209,25 @@ public class MainActivity extends AppCompatActivity implements
                 });
 
 
-        FirebaseInstanceId.getInstance().getInstanceId()
-                .addOnCompleteListener(task -> {
-                    if (!task.isSuccessful()) {
-                        //Log.w("TAG", "getInstanceId failed", task.getException());
-                        return;
+        FirebaseMessaging.getInstance().getToken()
+                .addOnCompleteListener(new OnCompleteListener<String>() {
+                    @Override
+                    public void onComplete(@NonNull Task<String> task) {
+                        if (!task.isSuccessful()) {
+                            //Log.w(TAG, "Fetching FCM registration token failed", task.getException());
+                            return;
+                        }
+
+                        // Get new FCM registration token
+                        String token = task.getResult();
+
+                        // Log and toast
+                        String msg = getString(R.string.msg_token_fmt, token);
+                        //Log.d("DEVICE NOTIFICATION ID", msg);
+                        int numplataforma = 1; //ANDROID
+                        userid = SharedPreferenceUtils.getInstance(context).getLongValue(context.getString(R.string.user_id), 0);
+                        new PutNotificationDeviceUserTask(context, userid, token, numplataforma).execute("");
                     }
-
-                    // Get new Instance ID token
-                    String token = task.getResult().getToken();
-
-                    // Log and toast
-                    String msg = getString(R.string.msg_token_fmt, token);
-                    //Log.d("DEVICE NOTIFICATION ID", msg);
-                    int numplataforma = 1; //ANDROID
-                    userid = SharedPreferenceUtils.getInstance(context).getLongValue(context.getString(R.string.user_id), 0);
-                    new PutNotificationDeviceUserTask(context, userid, token, numplataforma).execute("");
                 });
 
     }

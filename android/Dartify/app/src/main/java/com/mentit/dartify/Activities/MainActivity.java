@@ -7,6 +7,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -14,21 +16,32 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
-import androidx.annotation.NonNull;
 
 import com.facebook.login.LoginManager;
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.mentit.dartify.Adapters.PagerAdapter;
+import com.mentit.dartify.BuildConfig;
 import com.mentit.dartify.Fragments.ChatListFragment;
 import com.mentit.dartify.Fragments.FavoriteFragment;
 import com.mentit.dartify.Fragments.HomeFragment;
 import com.mentit.dartify.Fragments.MenuFragment;
 import com.mentit.dartify.Fragments.NotificationFragment;
+import com.mentit.dartify.HelperClasses.CustomViewPager;
 import com.mentit.dartify.HelperClasses.SharedPreferenceUtils;
 import com.mentit.dartify.Models.NotificationCard;
 import com.mentit.dartify.Models.POJO.User.Usuario;
@@ -39,14 +52,11 @@ import com.mentit.dartify.Models.ViewModel.NotificationCardViewModel;
 import com.mentit.dartify.Models.ViewModel.PerfilCardViewModel;
 import com.mentit.dartify.R;
 import com.mentit.dartify.Tasks.Notification.PutNotificationDeviceUserTask;
-import com.mentit.dartify.HelperClasses.CustomViewPager;
 import com.mentit.dartify.Tasks.User.GetUserProfileTask;
 
-import es.dmoral.toasty.Toasty;
-
-import android.os.Handler;
-
 import org.json.JSONObject;
+
+import es.dmoral.toasty.Toasty;
 
 public class MainActivity extends AppCompatActivity implements
         MenuFragment.OnFragmentMenuListener,
@@ -66,6 +76,8 @@ public class MainActivity extends AppCompatActivity implements
     private Bundle b;
     private Context context;
     private long userid;
+
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,6 +114,59 @@ public class MainActivity extends AppCompatActivity implements
         suscribeNotification();
 
         selectTabIndex(2);
+
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+
+        InterstitialAd.load(this, BuildConfig.BLOCK_INSTERSTITIAL_1, adRequest,
+                new InterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                        // The mInterstitialAd reference will be null until
+                        // an ad is loaded.
+                        mInterstitialAd = interstitialAd;
+                        if (mInterstitialAd != null) {
+                            mInterstitialAd.show(MainActivity.this);
+
+                            mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                                @Override
+                                public void onAdDismissedFullScreenContent() {
+                                    // Called when fullscreen content is dismissed.
+                                    Log.d("Intestitial Ad", "The ad was dismissed.");
+                                }
+
+                                @Override
+                                public void onAdFailedToShowFullScreenContent(AdError adError) {
+                                    // Called when fullscreen content failed to show.
+                                    Log.d("Intestitial Ad", "The ad failed to show.");
+                                }
+
+                                @Override
+                                public void onAdShowedFullScreenContent() {
+                                    // Called when fullscreen content is shown.
+                                    // Make sure to set your reference to null so you don't
+                                    // show it a second time.
+                                    mInterstitialAd = null;
+                                    Log.d("Intestitial Ad", "The ad was shown.");
+                                }
+                            });
+                        }
+
+                        Log.i("Intestitial Ad", "onAdLoaded");
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        // Handle the error
+                        Log.i("Intestitial Ad", loadAdError.getMessage());
+                        mInterstitialAd = null;
+                    }
+                });
 
         //handleIntent(getIntent());
     }

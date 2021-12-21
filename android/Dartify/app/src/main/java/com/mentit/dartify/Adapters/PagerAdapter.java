@@ -1,5 +1,7 @@
 package com.mentit.dartify.Adapters;
 
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.mentit.dartify.Fragments.ChatListFragment;
@@ -7,8 +9,6 @@ import com.mentit.dartify.Fragments.FavoriteFragment;
 import com.mentit.dartify.Fragments.HomeFragment;
 import com.mentit.dartify.Fragments.MenuFragment;
 import com.mentit.dartify.Fragments.NotificationFragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.Fragment;
 
 public class PagerAdapter extends FragmentStatePagerAdapter {
 

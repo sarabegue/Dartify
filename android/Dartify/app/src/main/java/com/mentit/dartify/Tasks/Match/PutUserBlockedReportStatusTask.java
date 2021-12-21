@@ -3,7 +3,6 @@ package com.mentit.dartify.Tasks.Match;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.mentit.dartify.Models.POJO.User.Foto;
 import com.mentit.dartify.Network.NetworkResponse;
 import com.mentit.dartify.Network.NetworkService;
 import com.mentit.dartify.R;

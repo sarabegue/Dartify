@@ -7,6 +7,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
+
 import com.mentit.dartify.Models.NotificationCard;
 
 @Database(entities = {NotificationCard.class}, version = 12)

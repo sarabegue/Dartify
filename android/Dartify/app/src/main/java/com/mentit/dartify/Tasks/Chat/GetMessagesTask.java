@@ -2,7 +2,6 @@ package com.mentit.dartify.Tasks.Chat;
 
 import android.content.Context;
 import android.os.AsyncTask;
-//import android.util.Log;
 
 import com.mentit.dartify.BuildConfig;
 import com.mentit.dartify.HelperClasses.SharedPreferenceUtils;

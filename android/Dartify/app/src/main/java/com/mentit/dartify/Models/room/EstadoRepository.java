@@ -3,7 +3,6 @@ package com.mentit.dartify.Models.room;
 import android.app.Application;
 import android.content.Context;
 import android.os.AsyncTask;
-//import android.util.Log;
 
 import androidx.lifecycle.LiveData;
 

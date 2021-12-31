@@ -6,7 +6,7 @@ android {
         applicationId "com.mentit.dartify"
         minSdkVersion 22
         targetSdkVersion 30
-        versionCode 28
+        versionCode 30
         versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
@@ -40,7 +40,7 @@ android {
             buildConfigField "String", "SOCKET_URL", '"http://dartifyapp.com:8080"'
             buildConfigField "String", "CERT_DOMAIN", '"-"'
             buildConfigField "String", "CERT_FINGERPRINT", '"-"'
-            buildConfigField "String", "BLOCK_INSTERSTITIAL_1", '"ca-app-pub-3940256099942544/1033173712"'
+            buildConfigField "String", "BLOCK_INSTERSTITIAL_1", '"ca-app-pub-3484434512354428/6558757347"'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

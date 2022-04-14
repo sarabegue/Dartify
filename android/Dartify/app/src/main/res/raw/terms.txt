@@ -1,7 +1,7 @@
 ** TÉRMINOS DE SERVICIO Y CONDICIONES DE USO
 ------------------------------------------------------------
 
-Revisado por última vez el 17 de marzo de 2019.
+Revisado por última vez el 13 de abril de 2022.
 
 Bienvenido a Dartify, operado por los dueños de Dartify App (“nosotros”, “nos”, la “Compañía” o “Dartify”).
 
@@ -14,17 +14,16 @@ Podemos hacer cambios en este Acuerdo y en el Servicio por diversas razones, ent
 2. Elegibilidad.
 
 Debes tener al menos 18 años de edad para crear una cuenta en Dartify y utilizar el Servicio. Al crear una cuenta y utilizar el Servicio, declaras y garantizas que:
-
- 	* puedes formar un contrato vinculante con Dartify,
- 	* no eres una persona que tiene prohibido usar el Servicio de acuerdo con las leyes de México, de Estados Unidos, del país en que reside o cualquier otra jurisdicción aplicable; lo que significa que no apareces en la lista de Ciudadanos Especialmente Designados del Departamento del Tesoro de Estados Unidos o enfrentas cualquier otra prohibición similar,
- 	* vas a cumplir con este Acuerdo y todas las leyes locales, estatales, nacionales e internacionales, normas y reglamentos aplicables, y
- 	* nunca has sido condenado o no disputaste un delito grave, un delito sexual, o cualquier delito que implique violencia, y que no estás obligado a registrarte como delincuente sexual en ningún estado, registro federal o local de delincuentes sexuales.
+* puedes formar un contrato vinculante con Dartify,
+* no eres una persona que tiene prohibido usar el Servicio de acuerdo con las leyes de México, de Estados Unidos, del país en que reside o cualquier otra jurisdicción aplicable; lo que significa que no apareces en la lista de Ciudadanos Especialmente Designados del Departamento del Tesoro de Estados Unidos o enfrentas cualquier otra prohibición similar,
+* vas a cumplir con este Acuerdo y todas las leyes locales, estatales, nacionales e internacionales, normas y reglamentos aplicables, y
+* nunca has sido condenado o no disputaste un delito grave, un delito sexual, o cualquier delito que implique violencia, y que no estás obligado a registrarte como delincuente sexual en ningún estado, registro federal o local de delincuentes sexuales.
 
 3. Tu cuenta.
 
 Para utilizar Dartify, puedes iniciar sesión con tu usuario de Facebook. Si lo haces, nos autorizas a acceder y usar cierta información de cuenta de Facebook, incluida pero no limitada a tu perfil público de Facebook. Para obtener más información con respecto a la información que obtenemos de ti y cómo la utilizamos, por favor consulta nuestra Política de privacidad.
 
-Eres responsable de mantener la confidencialidad de tus datos de acceso que utilizas para iniciar sesión en Dartify, y eres el único responsable de todas las actividades que ocurran bajo esas credenciales. Si crees que alguien ha tenido acceso a tu cuenta, por favor, ponte en contacto inmediatamente con help@dartify.com.
+Eres responsable de mantener la confidencialidad de tus datos de acceso que utilizas para iniciar sesión en Dartify, y eres el único responsable de todas las actividades que ocurran bajo esas credenciales. Si crees que alguien ha tenido acceso a tu cuenta, por favor, ponte en contacto inmediatamente con help@dartifyapp.com.
 
 5. Modificación del servicio y terminación.
 
@@ -43,21 +42,20 @@ ERES EL ÚNICO RESPONSABLE DE TUS INTERACCIONES CON OTROS USUARIOS. ENTIENDES QU
 7. Derechos que Dartify te otorga.
 
 Dartify te concede una licencia personal, mundial, exenta de regalías, no asignable, no exclusiva, revocable y no transferible a terceros para acceder y utilizar el Servicio. Esta licencia se otorga con el único propósito de que te permita usar y disfrutar de los beneficios del Servicio de la forma prevista por Dartify y permitida por el presente Acuerdo. Por lo tanto, acuerdas:
-
- 	* no utilizar el Servicio o cualquier contenido en el Servicio para fines comerciales sin nuestro consentimiento por escrito.
- 	* no copiar, modificar, transmitir, crear trabajos derivados de, hacer uso de, o reproducir en forma alguna cualquier material con derechos de autor, imágenes, marcas comerciales, nombres comerciales, marcas de servicio, u otra propiedad intelectual, contenidos o información propietaria de acceso a través del Servicio sin el previo consentimiento por escrito de Dartify.
- 	* no expresar ni insinuar que cualesquiera de tus declaraciones están avaladas por Dartify.
- 	* no utilizar ningún robot, bot, araña, robot de búsqueda, raspador, aplicación de búsqueda de sitios o de recuperación, proxy u otro dispositivo manual o automático, método o proceso para acceder, recuperar, indexar, “mina de datos”, o en cualquier forma reproducir o sortear la estructura de navegación o presentación del Servicio o su contenido.
- 	* no utilizar el servicio de ninguna manera que pudiera interferir con, interrumpir o afectar negativamente el Servicio o los servidores o redes conectados al Servicio.
- 	* no subir virus u otro código malicioso ni poner en peligro la seguridad del Servicio.
- 	* no falsificar encabezados ni manipular identificadores para disfrazar el origen de cualquier información transmitida a través del Servicio.
- 	* no hacer “marcos” ni “espejos” de cualquier parte del Servicio, sin previa autorización por escrito de Dartify.
- 	* no usar meta tags o código u otros dispositivos que contengan cualquier referencia a Dartify o al Servicio (o cualquier marca, nombre comercial, marca de servicio, logotipo o eslogan de Dartify) para dirigir a cualquier persona a cualquier otro sitio para cualquier propósito.
- 	* no modificar, adaptar, sublicenciar, traducir, vender, realizar ingeniería inversa, descifrar, descompilar o desensamblar cualquier parte del Servicio, o provocar que otros lo hagan.
- 	* no utilizar o desarrollar cualquier aplicación de terceros que interactúe con el Servicio o Contenido o información de otros usuarios sin nuestro consentimiento por escrito.
- 	* no utilizar, acceder ni publicar la interfaz de programación de la aplicación de Dartify sin nuestro consentimiento por escrito.
- 	* no sondear, escanear ni probar la vulnerabilidad de nuestro Servicio o de cualquier sistema o red.
- 	* no fomentar ni promover cualquier actividad que viole este Acuerdo.
+* no utilizar el Servicio o cualquier contenido en el Servicio para fines comerciales sin nuestro consentimiento por escrito.
+* no copiar, modificar, transmitir, crear trabajos derivados de, hacer uso de, o reproducir en forma alguna cualquier material con derechos de autor, imágenes, marcas comerciales, nombres comerciales, marcas de servicio, u otra propiedad intelectual, contenidos o información propietaria de acceso a través del Servicio sin el previo consentimiento por escrito de Dartify.
+* no expresar ni insinuar que cualesquiera de tus declaraciones están avaladas por Dartify.
+* no utilizar ningún robot, bot, araña, robot de búsqueda, raspador, aplicación de búsqueda de sitios o de recuperación, proxy u otro dispositivo manual o automático, método o proceso para acceder, recuperar, indexar, “mina de datos”, o en cualquier forma reproducir o sortear la estructura de navegación o presentación del Servicio o su contenido.
+* no utilizar el servicio de ninguna manera que pudiera interferir con, interrumpir o afectar negativamente el Servicio o los servidores o redes conectados al Servicio.
+* no subir virus u otro código malicioso ni poner en peligro la seguridad del Servicio.
+* no falsificar encabezados ni manipular identificadores para disfrazar el origen de cualquier información transmitida a través del Servicio.
+* no hacer “marcos” ni “espejos” de cualquier parte del Servicio, sin previa autorización por escrito de Dartify.
+* no usar meta tags o código u otros dispositivos que contengan cualquier referencia a Dartify o al Servicio (o cualquier marca, nombre comercial, marca de servicio, logotipo o eslogan de Dartify) para dirigir a cualquier persona a cualquier otro sitio para cualquier propósito.
+* no modificar, adaptar, sublicenciar, traducir, vender, realizar ingeniería inversa, descifrar, descompilar o desensamblar cualquier parte del Servicio, o provocar que otros lo hagan.
+* no utilizar o desarrollar cualquier aplicación de terceros que interactúe con el Servicio o Contenido o información de otros usuarios sin nuestro consentimiento por escrito.
+* no utilizar, acceder ni publicar la interfaz de programación de la aplicación de Dartify sin nuestro consentimiento por escrito.
+* no sondear, escanear ni probar la vulnerabilidad de nuestro Servicio o de cualquier sistema o red.
+* no fomentar ni promover cualquier actividad que viole este Acuerdo.
 
 La Compañía puede investigar y tomar las acciones legales disponibles en respuesta al uso ilegal y/o no autorizado del Servicio, incluida la terminación de tu cuenta.
 
@@ -65,7 +63,8 @@ Cualquier software que te proporcionamos puede descargar e instalar actualizacio
 
 8. Derechos que otorgas a Dartify.
 
-Al crear una cuenta, otorgas a Dartify una licencia mundial, transferible, sublicenciable, libre de regalías, el derecho y la licencia para albergar, almacenar, utilizar, copiar, mostrar, reproducir, adaptar, modificar, publicar, modificar y distribuir información que nos autorices para acceder a Facebook, así como cualquier información que publiques, subas, muestres o pongas a disposición (colectivamente, “publicar”) en el Servicio o transmitas a otros usuarios (colectivamente, “Contenido”). La licencia de Dartify a tu contenido será no exclusiva, salvo que la licencia de Dartify será exclusiva con respecto a los trabajos derivados creados a través del uso del Servicio. Por ejemplo, Dartify tendría una licencia exclusiva para capturas de pantalla del Servicio que incluyan tu Contenido. Además, para que Dartify pueda impedir el uso de tu Contenido fuera del Servicio, autorizas a Dartify para actuar en tu nombre en relación con la infracción del uso de tu Contenido tomado del Servicio por otros usuarios o terceros. Esto incluye expresamente la autoridad, pero no la obligación, para enviar notificaciones de conformidad con 17 U.S.C. § 512 (c) (3) (es decir, avisos de eliminación de DMCA) en tu nombre si tu Contenido es tomado o usado por terceros fuera del Servicio. Nuestra licencia a tu Contenido está sujeta a tus derechos bajo la ley aplicable (por ejemplo, las leyes relativas a la protección de datos personales en la medida en cualquier Contenido contienen información personal como se define por las leyes) y es para el propósito limitado de operar, desarrollar, proporcionar y mejorar el Servicio y la investigación y desarrollo de otros nuevos. Aceptas que cualquier Contenido que crees o que nos autorices a colocar en el Servicio puede ser visto por otros usuarios y puede ser visto por cualquier persona que visite o participe en el Servicio (por ejemplo, personas que pueden recibir Contenido compartido de otros usuarios de Dartify).
+Al crear una cuenta, otorgas a Dartify una licencia mundial, transferible, sublicenciable, libre de regalías, el derecho y la licencia para albergar, almacenar, utilizar, copiar, mostrar, reproducir, adaptar, modificar, publicar, modificar y distribuir información que nos autorices para acceder a Facebook, así como cualquier información que publiques, subas, muestres o pongas a disposición (colectivamente, “publicar”) en el Servicio o transmitas a otros usuarios (colectivamente, “Contenido”). La licencia de Dartify a tu contenido será no exclusiva, salvo que la licencia de Dartify será exclusiva con respecto a los trabajos derivados creados a través del uso del Servicio. Por ejemplo, Dartify tendría una licencia exclusiva para capturas de pantalla del Servicio que incluyan tu Contenido. Además, para que Dartify pueda impedir el uso de tu Contenido fuera del Servicio, autorizas a Dartify para actuar en tu nombre en relación con la infracción del uso de tu Contenido tomado del Servicio por
+otros usuarios o terceros. Esto incluye expresamente la autoridad, pero no la obligación, para enviar notificaciones de conformidad con 17 U.S.C. § 512 (c) (3) (es decir, avisos de eliminación de DMCA) en tu nombre si tu Contenido es tomado o usado por terceros fuera del Servicio. Nuestra licencia a tu Contenido está sujeta a tus derechos bajo la ley aplicable (por ejemplo, las leyes relativas a la protección de datos personales en la medida en cualquier Contenido contienen información personal como se define por las leyes) y es para el propósito limitado de operar, desarrollar, proporcionar y mejorar el Servicio y la investigación y desarrollo de otros nuevos. Aceptas que cualquier Contenido que crees o que nos autorices a colocar en el Servicio puede ser visto por otros usuarios y puede ser visto por cualquier persona que visite o participe en el Servicio (por ejemplo, personas que pueden recibir Contenido compartido de otros usuarios de Dartify).
 
 Aceptas que toda la información que envíes al crear tu cuenta, incluida la información presentada de tu cuenta de Facebook, es exacta y veraz y que tienes el derecho de publicar el Contenido en el Servicio y conceder la licencia anterior a Dartify.
 
@@ -80,48 +79,47 @@ Aceptas que Dartify puede acceder, conservar y revelar la información de tu cue
 9. Reglas de la comunidad.
 
 Al utilizar el Servicio, aceptas que no podrás:
-
- 	* utilizar el Servicio para ningún propósito que sea ilegal o prohibido por el presente Acuerdo.
- 	* utilizar el Servicio con fines perjudiciales.
- 	* utilizar el Servicio con el fin de dañar a Dartify.
- 	* enviar correo no deseado, solicitar dinero o defraudar a cualquier usuario.
- 	* hacerte pasar por otra persona o entidad o publicar cualquier imagen de otra persona sin su permiso.
- 	* intimidar, “asediar”, intimidar, agredir, acosar, maltratar o difamar a cualquier persona.
- 	* publicar cualquier Contenido que viole o infrinja los derechos de cualquier persona, incluidos los derechos de publicidad, privacidad, derechos de autor, marca registrada u otra propiedad intelectual o derecho de contrato.
- 	* publicar cualquier Contenido que sea discurso de odio, amenazante, sexualmente explícito o pornográfico; que incite a la violencia; o que contenga desnudos o violencia gráfica o injustificada.
- 	* publicar ningún Contenido que promueva el racismo, la intolerancia, el odio o el daño físico de cualquier tipo contra cualquier grupo o individuo.
- 	* solicitar contraseñas para cualquier propósito, o información de identificación personal para fines comerciales o ilegales de otros usuarios o difundir la información personal de otra persona sin su permiso.
- 	* usar la cuenta de otro usuario.
- 	* crear otra cuenta si ya hemos terminado tu cuenta, a menos que tengas nuestro permiso.
+* utilizar el Servicio para ningún propósito que sea ilegal o prohibido por el presente Acuerdo.
+* utilizar el Servicio con fines perjudiciales.
+* utilizar el Servicio con el fin de dañar a Dartify.
+* enviar correo no deseado, solicitar dinero o defraudar a cualquier usuario.
+* hacerte pasar por otra persona o entidad o publicar cualquier imagen de otra persona sin su permiso.
+* intimidar, “asediar”, intimidar, agredir, acosar, maltratar o difamar a cualquier persona.
+* publicar cualquier Contenido que viole o infrinja los derechos de cualquier persona, incluidos los derechos de publicidad, privacidad, derechos de autor, marca registrada u otra propiedad intelectual o derecho de contrato.
+* publicar cualquier Contenido que sea discurso de odio, amenazante, sexualmente explícito o pornográfico; que incite a la violencia; o que contenga desnudos o violencia gráfica o injustificada.
+* publicar ningún Contenido que promueva el racismo, la intolerancia, el odio o el daño físico de cualquier tipo contra cualquier grupo o individuo.
+* solicitar contraseñas para cualquier propósito, o información de identificación personal para fines comerciales o ilegales de otros usuarios o difundir la información personal de otra persona sin su permiso.
+* usar la cuenta de otro usuario.
+* crear otra cuenta si ya hemos terminado tu cuenta, a menos que tengas nuestro permiso.
 
 Dartify se reserva el derecho de investigar y/o terminar tu cuenta sin la devolución de las compras si has violado este Acuerdo, has hecho mal uso del servicio o te has comportado de una manera que Dartify considera inadecuada o ilegal, incluidas acciones o comunicaciones que se producen dentro o fuera el Servicio.
 
 10. Contenido de otros Usuarios.
 
-Aunque Dartify se reserva el derecho de revisar y eliminar el Contenido que viole este Acuerdo, dicho Contenido es responsabilidad exclusiva del usuario que lo publica, y Dartify no puede garantizar que todo el Contenido cumpla con este Acuerdo. Si ves Contenido en el Servicio que viole este Acuerdo, por favor reportarlo dentro del Servicio o por medio de help@dartify.com.
+Aunque Dartify se reserva el derecho de revisar y eliminar el Contenido que viole este Acuerdo, dicho Contenido es responsabilidad exclusiva del usuario que lo publica, y Dartify no puede garantizar que todo el Contenido cumpla con este Acuerdo. Si ves Contenido en el Servicio que viole este Acuerdo, por favor reportarlo dentro del Servicio o por medio de help@dartifyapp.com.
 
 11. Compras.
 
-Compras en la aplicación. De vez en cuando, Dartify puede ofrecer productos y servicios para su compra (“Compras en la aplicación”) a través de iTunes, Google Play u otras plataformas de aplicaciones autorizadas por Dartify (cada una, una “tienda de software”). Si decides hacer una compra en la aplicación, se te pedirá que introduzcas los detalles de tu cuenta en tu tienda de software (“tu cuenta IAP”), y se cobrará a tu cuenta IAP la compra en la aplicación de acuerdo con los términos que se te describieron en el momento de la compra, así como las condiciones generales para las compras en la aplicación que se aplican a tu cuenta de IAP. Algunas tiendas de software pueden cobrar impuestos sobre las ventas, dependiendo de dónde vivas. Si adquieres una suscripción periódica autorrecurrente a través de una compra en aplicación, se seguirá cobrando la suscripción a la cuenta de IAP hasta que canceles. Después de tu plazo de suscripción inicial, y de nuevo después de un período de suscripción posterior, tu suscripción continuará automáticamente por un período adicional equivalente, al precio que acordaste al suscribirte. Si no deseas que tu suscripción se renueve automáticamente, o si deseas cambiar o cancelar tu suscripción, tendrás que iniciar sesión en tu cuenta de IAP y seguir las instrucciones para cancelar la suscripción, incluso si de otro modo borraste tu cuenta con nosotros o si has eliminado la aplicación de Dartify de tu dispositivo. La eliminación de tu cuenta en Dartify o la eliminación de la aplicación de Dartify de tu dispositivo no cancela tu suscripción; Dartify retendrá todos los fondos con cargo a tu cuenta de IAP hasta que canceles tu suscripción a través de tu cuenta de IAP.
+Compras en la aplicación. De vez en cuando, Dartify puede ofrecer productos y servicios para su compra (“Compras en la aplicación”) a través de iTunes, Google Play u otras plataformas de aplicaciones autorizadas por Dartify (cada una, una “tienda de software”). Si decides hacer una compra en la aplicación, se te pedirá que introduzcas los detalles de tu cuenta en tu tienda de software (“tu cuenta IAP”), y se cobrará a tu cuenta IAP la compra en la aplicación de acuerdo con los términos que se te describieron en el momento de la compra, así como las condiciones generales para las compras en la aplicación que se aplican a tu cuenta de IAP. Algunas tiendas de software pueden cobrar impuestos sobre las ventas, dependiendo de dónde vivas. Si adquieres una suscripción periódica autorrecurrente a través de una compra en aplicación, se seguirá cobrando la suscripción a la cuenta de IAP hasta que canceles. Después de tu plazo de suscripción inicial, y de nuevo después de un período de
+suscripción posterior, tu suscripción continuará automáticamente por un período adicional equivalente, al precio que acordaste al suscribirte. Si no deseas que tu suscripción se renueve automáticamente, o si deseas cambiar o cancelar tu suscripción, tendrás que iniciar sesión en tu cuenta de IAP y seguir las instrucciones para cancelar la suscripción, incluso si de otro modo borraste tu cuenta con nosotros o si has eliminado la aplicación de Dartify de tu dispositivo. La eliminación de tu cuenta en Dartify o la eliminación de la aplicación de Dartify de tu dispositivo no cancela tu suscripción; Dartify retendrá todos los fondos con cargo a tu cuenta de IAP hasta que canceles tu suscripción a través de tu cuenta de IAP.
 
-Bombones y otros artículos virtuales. Puedes comprar “bombones” y otros artículos virtuales tales como flor, un abrazo, un beso y un saludo (colectivamente “Artículos virtuales”). Sólo se te permite comprar artículos virtuales de nosotros o de nuestros socios autorizados a través del Servicio y no de ninguna otra manera. Los artículos virtuales representan un derecho de licencia limitada que se rige por el presente Acuerdo. Salvo que esté prohibido por la ley aplicable, los Artículos virtuales obtenidos por ti tienen licencia para ti, y reconoces que no se te está transfiriendo ni cediendo ningún título ni propiedad de los Artículos virtuales. El presente Acuerdo no debe interpretarse como una venta de ningún derecho sobre Artículos virtuales. Cualquier saldo de Artículo virtual que se muestre en tu cuenta no constituye un saldo en el mundo real ni refleja ningún valor almacenado, sino que constituye una medida de la extensión de tu licencia. Los Artículos virtuales no incurren en tasas por falta de uso, sin embargo, la licencia concedida a ti en Artículos virtuales terminará de acuerdo con los términos de este Acuerdo, cuando Dartify cese la prestación del Servicio o de si tu cuenta es cerrada o terminada. Dartify, a su sola discreción, se reserva el derecho a cobrar cargos por el derecho a acceder a o utilizar Artículos virtuales y/o puede distribuir Artículos virtuales con o sin cargo. Dartify puede administrar, regular, controlar, modificar o eliminar Artículos virtuales en cualquier momento. Dartify no tendrá ninguna responsabilidad hacia ti o cualquier tercero, en el caso de que Dartify ejerza cualquiera de estos derechos. Se prohíbe la transferencia de Artículos virtuales, y no podrás vender, canjear ni transferir Artículos virtuales a cualquier persona o entidad. Los Artículos virtuales sólo pueden canjearse a través del Servicio. TODAS LAS COMPRAS Y CANJES DE ARTÍCULOS VIRTUALES REALIZADOS A TRAVÉS DEL SERVICIO SON FINALES Y NO REEMBOLSABLES. La provisión de Artículos virtuales para su uso en el Servicio es un servicio proporcionado por Dartify que comienza inmediatamente después de la aceptación de tu compra de tales artículos virtuales. RECONOCES QUE DARTIFY NO DEBE PROPORCIONAR UN REEMBOLSO POR RAZÓN ALGUNA, Y QUE NO RECIBIRÁS DINERO NI NINGUNA OTRA COMPENSACIÓN POR ARTÍCULOS VIRTUALES NO USADOS CUANDO TU CUENTA SE CIERRE, YA SEA QUE EL CIERRE HAYA SIDO VOLUNTARIO O INVOLUNTARIO.
+Bombones y otros artículos virtuales. Puedes comprar “bombones” y otros artículos virtuales tales como flor, un abrazo, un beso y un saludo (colectivamente “Artículos virtuales”). Sólo se te permite comprar artículos virtuales de nosotros o de nuestros socios autorizados a través del Servicio y no de ninguna otra manera. Los artículos virtuales representan un derecho de licencia limitada que se rige por el presente Acuerdo. Salvo que esté prohibido por la ley aplicable, los Artículos virtuales obtenidos por ti tienen licencia para ti, y reconoces que no se te está transfiriendo ni cediendo ningún título ni propiedad de los Artículos virtuales. El presente Acuerdo no debe interpretarse como una venta de ningún derecho sobre Artículos virtuales. Cualquier saldo de Artículo virtual que se muestre en tu cuenta no constituye un saldo en el mundo real ni refleja ningún valor almacenado, sino que constituye una medida de la extensión de tu licencia. Los Artículos virtuales no incurren en
+tasas por falta de uso, sin embargo, la licencia concedida a ti en Artículos virtuales terminará de acuerdo con los términos de este Acuerdo, cuando Dartify cese la prestación del Servicio o de si tu cuenta es cerrada o terminada. Dartify, a su sola discreción, se reserva el derecho a cobrar cargos por el derecho a acceder a o utilizar Artículos virtuales y/o puede distribuir Artículos virtuales con o sin cargo. Dartify puede administrar, regular, controlar, modificar o eliminar Artículos virtuales en cualquier momento. Dartify no tendrá ninguna responsabilidad hacia ti o cualquier tercero, en el caso de que Dartify ejerza cualquiera de estos derechos. Se prohíbe la transferencia de Artículos virtuales, y no podrás vender, canjear ni transferir Artículos virtuales a cualquier persona o entidad. Los Artículos virtuales sólo pueden canjearse a través del Servicio. TODAS LAS COMPRAS Y CANJES DE ARTÍCULOS VIRTUALES REALIZADOS A TRAVÉS DEL SERVICIO SON FINALES Y NO REEMBOLSABLES. La
+provisión de Artículos virtuales para su uso en el Servicio es un servicio proporcionado por Dartify que comienza inmediatamente después de la aceptación de tu compra de tales artículos virtuales. RECONOCES QUE DARTIFY NO DEBE PROPORCIONAR UN REEMBOLSO POR RAZÓN ALGUNA, Y QUE NO RECIBIRÁS DINERO NI NINGUNA OTRA COMPENSACIÓN POR ARTÍCULOS VIRTUALES NO USADOS CUANDO TU CUENTA SE CIERRE, YA SEA QUE EL CIERRE HAYA SIDO VOLUNTARIO O INVOLUNTARIO.
 
 Reembolsos. En general, todos los cargos por compras no son reembolsables, y no hay reembolsos o créditos por plazos parcialmente usados.
 
 12. Aviso y procedimiento para realizar reclamaciones de infracción de derechos de autor.
 
 Si crees que tu trabajo ha sido copiado y publicado en el servicio de Dartify de una manera que constituye una infracción de derechos de autor, proporciona a nuestro agente de derechos de autor la siguiente información:
+* una firma electrónica o física de la persona autorizada para actuar en nombre del propietario de los derechos de autor;
+* una descripción de la obra con derechos de autor que afirmas que ha sido violada;
+* una descripción de donde se encuentra en el Servicio el material que consideras que se ha infringido (y tal descripción debe ser lo razonablemente suficiente para que nos permita encontrar el presunto material infractor);
+* tu información de contacto, incluida dirección, número de teléfono y dirección de correo electrónico;
+* una declaración escrita en la que indicas de buena fe que el uso disputado no está autorizado por el propietario de los derechos de autor, su agente o la ley; y
+* una declaración tuya, hecha bajo pena de perjurio, que declare que la información mencionada en tu notificación es exacta y que eres el propietario de los derechos de autor y que estás autorizado para actuar en nombre del propietario de los derechos de autor.
 
- 	* una firma electrónica o física de la persona autorizada para actuar en nombre del propietario de los derechos de autor;
- 	* una descripción de la obra con derechos de autor que afirmas que ha sido violada;
- 	* una descripción de donde se encuentra en el Servicio el material que consideras que se ha infringido (y tal descripción debe ser lo razonablemente suficiente para que nos permita encontrar el presunto material infractor);
- 	* tu información de contacto, incluida dirección, número de teléfono y dirección de correo electrónico;
- 	* una declaración escrita en la que indicas de buena fe que el uso disputado no está autorizado por el propietario de los derechos de autor, su agente o la ley; y
- 	* una declaración tuya, hecha bajo pena de perjurio, que declare que la información mencionada en tu notificación es exacta y que eres el propietario de los derechos de autor y que estás autorizado para actuar en nombre del propietario de los derechos de autor.
-
-La notificación de reclamaciones de infracción de derechos de autor debe ser proporcionada al agente de derechos de autor de la Empresa a través de correo electrónico copyright@dartify.com.
-
-Dartify terminará las cuentas de los infractores reincidentes.
+La notificación de reclamaciones de infracción de derechos de autor debe ser proporcionada al agente de derechos de autor de la Empresa a través de correo electrónico copyright@dartify.com. Dartify terminará las cuentas de los infractores reincidentes.
 
 13. Renuncias.
 
@@ -137,7 +135,8 @@ El Servicio puede contener anuncios y promociones ofrecidos por terceros y enlac
 
 15. Limitación de responsabilidad.
 
-EN LA EXTENSIÓN PERMITIDA POR LEY APLICABLE, EN NINGÚN CASO SERÁN RESPONSABLES DARTIFY, SUS FILIALES, EMPLEADOS, LICENCIANTES O PROVEEDORES DE SERVICIO POR CUALQUIER DAÑO INDIRECTO, CONSECUENTE, EJEMPLAR, INCIDENTAL, ESPECIAL, PUNITIVO O MEJORADO, INCLUIDO SIN LIMITACIÓN, PÉRDIDA DE GANANCIAS, QUE HAYA SUCEDIDO DIRECTA O INDIRECTAMENTE, O CUALQUIER PÉRDIDA DE DATOS, USO, FONDO DE COMERCIO, U OTRAS PÉRDIDAS INTANGIBLES, RESULTANTES DE: (I) TU ACCESO A O USO DE O IMPOSIBILIDAD DE ACCESO O DE UTILIZAR EL SERVICIO, (II) LA CONDUCTA O EL CONTENIDO DE OTROS USUARIOS O TERCEROS EN, A TRAVÉS DE O DESPUÉS DEL USO DEL SERVICIO; O (III) ACCESO, USO O ALTERACIÓN NO AUTORIZADOS DE TU CONTENIDO, INCLUSO SI DARTIFY HA SIDO ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS. SIN PERJUICIO DE LO ANTERIOR, EN NINGÚN CASO LA RESPONSABILIDAD TOTAL DE DARTIFY POR TODAS LAS RECLAMACIONES QUE SURJAN DE O ESTÉN RELACIONADAS CON EL SERVICIO HABRÁ DE SUPERAR LA CANTIDAD PAGADA, SI ES QUE ALGUNA, POR TI A DARTIFY DURANTE EL PERIODO DE VEINTICUATRO (24) MESES INMEDIATAMENTE ANTERIOR A LA FECHA EN QUE PRESENTES UNA DEMANDA JUDICIAL, ARBITRAJE O CUALQUIER OTRO PROCEDIMIENTO LEGAL CONTRA DARTIFY, YA SEA EN DERECHO O EQUIDAD, EN CUALQUIER TRIBUNAL. LA LIMITACIÓN DE DAÑOS DESCRITA EN LA FRASE INMEDIATAMENTE ANTERIOR APLICA: (i) INDEPENDIENTEMENTE DE LOS PRESUPUESTOS SOBRE LOS QUE SE BASA LA RESPONSABILIDAD (YA SEA POR DEFECTO, EN VIRTUD DE UN CONTRATO, ACUERDO EXTRACONTRACTUAL, POR DISPOSICIONES LEGALES U OTROS), (ii) SIN IMPORTAR EL TIPO DE INCUMPLIMIENTO DE OBLIGACIONES, Y (iii) CON RESPECTO A TODOS LOS EVENTOS, EL SERVICIO Y ESTE ACUERDO.
+EN LA EXTENSIÓN PERMITIDA POR LEY APLICABLE, EN NINGÚN CASO SERÁN RESPONSABLES DARTIFY, SUS FILIALES, EMPLEADOS, LICENCIANTES O PROVEEDORES DE SERVICIO POR CUALQUIER DAÑO INDIRECTO, CONSECUENTE, EJEMPLAR, INCIDENTAL, ESPECIAL, PUNITIVO O MEJORADO, INCLUIDO SIN LIMITACIÓN, PÉRDIDA DE GANANCIAS, QUE HAYA SUCEDIDO DIRECTA O INDIRECTAMENTE, O CUALQUIER PÉRDIDA DE DATOS, USO, FONDO DE COMERCIO, U OTRAS PÉRDIDAS INTANGIBLES, RESULTANTES DE: (I) TU ACCESO A O USO DE O IMPOSIBILIDAD DE ACCESO O DE UTILIZAR EL SERVICIO, (II) LA CONDUCTA O EL CONTENIDO DE OTROS USUARIOS O TERCEROS EN, A TRAVÉS DE O DESPUÉS DEL USO DEL SERVICIO; O (III) ACCESO, USO O ALTERACIÓN NO AUTORIZADOS DE TU CONTENIDO, INCLUSO SI DARTIFY HA SIDO ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS. SIN PERJUICIO DE LO ANTERIOR, EN NINGÚN CASO LA RESPONSABILIDAD TOTAL DE DARTIFY POR TODAS LAS RECLAMACIONES QUE SURJAN DE O ESTÉN RELACIONADAS CON EL SERVICIO HABRÁ DE SUPERAR LA CANTIDAD PAGADA, SI ES QUE ALGUNA, POR TI A DARTIFY DURANTE EL
+PERIODO DE VEINTICUATRO (24) MESES INMEDIATAMENTE ANTERIOR A LA FECHA EN QUE PRESENTES UNA DEMANDA JUDICIAL, ARBITRAJE O CUALQUIER OTRO PROCEDIMIENTO LEGAL CONTRA DARTIFY, YA SEA EN DERECHO O EQUIDAD, EN CUALQUIER TRIBUNAL. LA LIMITACIÓN DE DAÑOS DESCRITA EN LA FRASE INMEDIATAMENTE ANTERIOR APLICA: (i) INDEPENDIENTEMENTE DE LOS PRESUPUESTOS SOBRE LOS QUE SE BASA LA RESPONSABILIDAD (YA SEA POR DEFECTO, EN VIRTUD DE UN CONTRATO, ACUERDO EXTRACONTRACTUAL, POR DISPOSICIONES LEGALES U OTROS), (ii) SIN IMPORTAR EL TIPO DE INCUMPLIMIENTO DE OBLIGACIONES, Y (iii) CON RESPECTO A TODOS LOS EVENTOS, EL SERVICIO Y ESTE ACUERDO.
 
 LAS DISPOSICIONES DE LA LIMITACIÓN DE RESPONSABILIDAD ESTABLECIDAS EN LA SECCIÓN 15 SE APLICARÁN INCLUSO SI TUS RECURSOS BAJO ESTE ACUERDO FALLAN CON RESPECTO A SU PROPÓSITO ESENCIAL.
 
@@ -147,18 +146,18 @@ ALGUNAS JURISDICCIONES NO PERMITEN LA EXCLUSIÓN O LIMITACIÓN DE CIERTOS DAÑOS
 
 Excepto donde esté prohibido por la ley aplicable:
 
-1. Los medios exclusivos para la resolución de cualquier controversia o reclamo que surjan de o estén relacionados con el presente Acuerdo (incluida cualquier supuesta violación de los mismos) o el Servicio, independientemente de la fecha de surgimiento e incluidos todos los reclamos pasados, pendientes y futuros, serán el ARBITRAJE VINCULANTE administrado por la Asociación Americana de Arbitraje bajo las reglas de arbitraje de consumo. La única excepción a la exclusividad del arbitraje es que tienes el derecho de presentar una reclamación individual contra Dartify ante un tribunal para demandas de menor cuantía de la jurisdicción competente en tu país de residencia. Dicho arbitraje deberá realizarse con presentaciones por escrito únicamente, a menos que tú y Dartify decidan invocar el derecho a una audiencia oral ante un árbitro. Pero si eliges el arbitraje o el tribunal para demandas de menor cuantía, aceptas que bajo ninguna circunstancia iniciarás, mantendrás o participarás en ninguna acción de clase, arbitraje de clase u otra acción representativa o procedimiento contra Dartify.
+1. Los medios exclusivos para la resolución de cualquier controversia o reclamo que surjan de o estén relacionados con el presente Acuerdo (incluida cualquier supuesta violación de los mismos) o el Servicio, independientemente de la fecha de surgimiento e incluidos todos los reclamos pasados, pendientes y futuros, serán el ARBITRAJE VINCULANTE administrado por la Asociación Americana de Arbitraje bajo las reglas de arbitraje de consumo. La única excepción a la exclusividad del arbitraje es que tienes el derecho de presentar una reclamación individual contra Dartify ante un tribunal para demandas de menor cuantía de la jurisdicción competente en tu país de residencia. Dicho arbitraje deberá realizarse con presentaciones por escrito únicamente, a menos que tú y Dartify decidan invocar el derecho a una audiencia oral ante un árbitro. Pero si eliges el arbitraje o el tribunal para demandas de menor cuantía, aceptas que bajo ninguna circunstancia iniciarás, mantendrás o participarás en ninguna
+acción de clase, arbitraje de clase u otra acción representativa o procedimiento contra Dartify.
 
 2. Al aceptar este Acuerdo, estás de acuerdo con el Acuerdo de arbitraje de esta Sección 16 (sujeto al derecho limitado de exclusión voluntaria por vez única que tienen los usuarios existentes en un plazo de treinta (30) días, se discute más adelante). Al hacerlo, AMBOS TÚ Y DARTIFY RENUNCIAN AL DERECHO DE IR A JUICIO para hacer valer o defender cualquier demanda entre tú y Dartify (a excepción de los asuntos que puedan ser debidamente llevados a un tribunal para demandas de menor cuantía y están dentro de la jurisdicción de dicho tribunal). TAMBIÉN RENUNCIAS A TU DERECHO A PARTICIPAR EN UNA ACCIÓN DE CLASE U OTRO PROCEDIMIENTO DE CLASE, incluido, sin limitación, cualquier acción de clase pasada, pendiente o futura, incluidas las existentes a la fecha de este Acuerdo, que incluyen, sin limitación cualquier acción actualmente pendiente contra Dartify.
 
 3. Si impones una reclamación contra Dartify por fuera de un tribunal para demandas de menor cuantía, tus derechos serán determinados por un ÁRBITRO NEUTRAL, NO UN JUEZ NI JURADO, y el árbitro determinará todas las reclamaciones y todas las cuestiones relativas a la arbitrabilidad de la controversia. Lo mismo es cierto para Dartify. Tanto tú como Dartify tienen derecho a una audiencia justa ante el árbitro. El árbitro generalmente puede conceder la misma solución que un tribunal, pero debes tener en cuenta que los procedimientos de arbitraje son generalmente más simples y más ágiles que los juicios y otros procedimientos judiciales. Las decisiones del árbitro son ejecutables en los tribunales y pueden ser revocadas por un tribunal sólo por razones muy limitadas.
 
 4. Las disposiciones de la jurisdicción y del lugar de encuentro en las secciones 17 y 18 se incorporan y son aplicables a este Acuerdo de arbitraje. Al decidir si aceptas este Acuerdo de arbitraje, estas son algunas consideraciones importantes:
-
- 	* El arbitraje es un proceso de resolución de controversias privada que no implica la vía civil, un juez civil o un jurado. En cambio, la controversia entre las partes se decide por un árbitro privado elegido por las partes en virtud del Reglamento de Arbitraje de Consumo de la Asociación Americana de Arbitraje. El arbitraje no limita ni afecta las demandas legales que tú como individuo puedes presentar contra Dartify. La aceptación del arbitraje sólo afectará donde dichas demandas puedan ser llevadas y la forma en que serán resueltas.
- 	* El arbitraje se considera generalmente como un proceso de resolución de controversias más rápido que el sistema judicial, pero eso no es siempre el caso. El Árbitro normalmente determinará si Dartify o tú tendrán que pagar o dividir el costo de cualquier arbitraje con Dartify, en función de las circunstancias que se presenten.
- 	* IMPORTANTE: HAY AHORA, Y PODRÍA HABER EN EL FUTURO, JUICIOS LEGALES CONTRA DARTIFY QUE ALEGASEN DEMANDAS DE CLASE Y/O REPRESENTATIVAS EN TU NOMBRE, INCLUIDAS, PERO SIN LIMITACIÓN, LAS ACCIONES DE CLASE DESCRITAS EN ESTA SECCIÓN 16, QUE, EN CASO DE SER EXITOSAS, PODRÍAN RESULTAR POTENCIALMENTE EN CIERTA RECUPERACIÓN MONETARIA O DE OTRO TIPO PARA TI, SI ELIGES LA EXCLUSIÓN VOLUNTARIA DE LA APLICACIÓN RETROACTIVA DE ESTE ACUERDO DE ARBITRAJE. LA MERA EXISTENCIA DE DICHOS JUICIOS DE CLASE Y/O REPRESENTATIVOS, NO OBSTANTE, NO SIGNIFICA QUE DICHOS JUICIOS TENGAN FINALMENTE ÉXITO, O QUE, INCLUSO SI TUVIERAN ÉXITO, QUE TÚ TUVIERAS DERECHO A CUALQUIER RECUPERACIÓN.
- 	* Estarás imposibilitado para presentar cualquier acción de clase o representativa contra Dartify, a menos que te des de baja oportunamente de la aplicación retroactiva de este Acuerdo de arbitraje, y también estarás imposibilitado para participar en cualquier recuperación que resulten de cualquier acción de clase o acción representativa en contra de Dartify, en cada caso, siempre y cuando no estés ya sujeto a un acuerdo de arbitraje y la renuncia a la acción de clase acordada previamente con Dartify.
+* El arbitraje es un proceso de resolución de controversias privada que no implica la vía civil, un juez civil o un jurado. En cambio, la controversia entre las partes se decide por un árbitro privado elegido por las partes en virtud del Reglamento de Arbitraje de Consumo de la Asociación Americana de Arbitraje. El arbitraje no limita ni afecta las demandas legales que tú como individuo puedes presentar contra Dartify. La aceptación del arbitraje sólo afectará donde dichas demandas puedan ser llevadas y la forma en que serán resueltas.
+* El arbitraje se considera generalmente como un proceso de resolución de controversias más rápido que el sistema judicial, pero eso no es siempre el caso. El Árbitro normalmente determinará si Dartify o tú tendrán que pagar o dividir el costo de cualquier arbitraje con Dartify, en función de las circunstancias que se presenten.
+* IMPORTANTE: HAY AHORA, Y PODRÍA HABER EN EL FUTURO, JUICIOS LEGALES CONTRA DARTIFY QUE ALEGASEN DEMANDAS DE CLASE Y/O REPRESENTATIVAS EN TU NOMBRE, INCLUIDAS, PERO SIN LIMITACIÓN, LAS ACCIONES DE CLASE DESCRITAS EN ESTA SECCIÓN 16, QUE, EN CASO DE SER EXITOSAS, PODRÍAN RESULTAR POTENCIALMENTE EN CIERTA RECUPERACIÓN MONETARIA O DE OTRO TIPO PARA TI, SI ELIGES LA EXCLUSIÓN VOLUNTARIA DE LA APLICACIÓN RETROACTIVA DE ESTE ACUERDO DE ARBITRAJE. LA MERA EXISTENCIA DE DICHOS JUICIOS DE CLASE Y/O REPRESENTATIVOS, NO OBSTANTE, NO SIGNIFICA QUE DICHOS JUICIOS TENGAN FINALMENTE ÉXITO, O QUE, INCLUSO SI TUVIERAN ÉXITO, QUE TÚ TUVIERAS DERECHO A CUALQUIER RECUPERACIÓN.
+* Estarás imposibilitado para presentar cualquier acción de clase o representativa contra Dartify, a menos que te des de baja oportunamente de la aplicación retroactiva de este Acuerdo de arbitraje, y también estarás imposibilitado para participar en cualquier recuperación que resulten de cualquier acción de clase o acción representativa en contra de Dartify, en cada caso, siempre y cuando no estés ya sujeto a un acuerdo de arbitraje y la renuncia a la acción de clase acordada previamente con Dartify.
 
 ACEPTAR ESTE ACUERDO DE ARBITRAJE ES UNA DECISIÓN IMPORTANTE. LA DECISIÓN DEBES TOMARLA TÚ Y DEBERÁS TENER CUIDADO DE INVESTIGAR MÁS A FONDO Y CONSULTAR CON OTRAS PERSONAS —INCLUIDO, SIN LIMITACIÓN, UN ABOGADO— LO RELACIONADO CON LAS CONSECUENCIAS DE TU DECISIÓN, IGUAL QUE HARÍAS AL TOMAR CUALQUIER OTRA DECISIÓN COMERCIAL O VITAL.
 
@@ -174,305 +173,89 @@ En caso de no darte de baja de la aplicación retroactiva de este Acuerdo de arb
 
 17. Legislación aplicable.
 
-Excepto donde nuestro acuerdo de arbitraje esté prohibido por la ley, las leyes de los Estados Unidos Mexicanos, sin tener en cuenta su conflicto de leyes, se aplicarán a cualquier controversia que surja de o relacionada con este Acuerdo, el Servicio, o tu relación con Dartify. No obstante, lo anterior, el Acuerdo de arbitraje de la Sección 16 anterior se regirá por la Ley Federal de Arbitraje.
+Excepto donde nuestro acuerdo de arbitraje esté prohibido por la ley, las leyes de Texas, EE. UU., sin tener en cuenta su conflicto de leyes, se aplicarán a cualquier controversia que surja de o relacionada con este Acuerdo, el Servicio, o tu relación con Dartify. No obstante, lo anterior, el Acuerdo de arbitraje de la Sección 16 anterior se regirá por la Ley Federal de Arbitraje.
 
 18. Lugar de encuentro.
 
-A excepción de las reclamaciones que puedan presentarse adecuadamente en un tribunal para demandas de menor cuantía de jurisdicción competente en el condado en el que resides o en el condado de Dallas, Texas, todas las reclamaciones que surjan de o que estén relacionadas con este Acuerdo, el Servicio, o tu relación con Dartify que por cualquier razón no se envíe a arbitraje será litigado exclusivamente en el tribunales federales o estatales de los Estados Unidos Mexicanos. Tú y Dartify se someten al ejercicio de la jurisdicción personal de los tribunales en el estado de Texas y renuncian a cualquier reclamación de que dichos tribunales constituyan un foro inconveniente.
+A excepción de las reclamaciones que puedan presentarse adecuadamente en un tribunal para demandas de menor cuantía de jurisdicción competente en el condado en el que resides o en el condado de Dallas, Texas, todas las reclamaciones que surjan de o que estén relacionadas con este Acuerdo, el Servicio, o tu relación con Dartify que por cualquier razón no se envíe a arbitraje será litigado exclusivamente en el tribunales federales o estatales del Condado de Dallas, Texas, EE. UU. Tú y Dartify se someten al ejercicio de la jurisdicción personal de los tribunales en el estado de Texas y renuncian a cualquier reclamación de que dichos tribunales constituyan un foro inconveniente.
 
-19. Indemnización por tu parte.
+19. Comportamiento y/o contenido objetable o inapropiado.
+
+Bienvenido a la comunidad Dartify. Si te comportas con honestidad, amabilidad y respeto con los demás, siempre serás bienvenido. Si decides no serlo, es posible que no dures mucho por aquí. Nuestra meta es permitir a los usuarios expresarse libremente siempre y cuando no ofendan a los demás. En Dartify todos están sujetos a las mismas normas. Te pedimos que seas considerado, que pienses antes de actuar y que cumplas con las reglas de la comunidad, tanto en línea como en persona. Sí, leíste bien: tu comportamiento personal puede hacer que cancelen tu cuenta de Dartify.
+
+Dartify NO es para:
+
+Desnudos/Contenido sexual
+
+Por favor, conserva un estilo elegante y apropiado para el consumo público. Nada de desnudos, nada de contenido sexual explícito y no escribas en tu biografía una lista detallada de tus fantasías sexuales. Nada de eso.
+
+Acoso
+
+No participes ni alientes a otros a participar en ningún tipo de abuso o acoso dirigido contra cualquier otro usuario. Esto incluye enviarles a tus parejas contenido sexual no solicitado. Nos tomamos muy en serio los informes de acoso, amenazas, abuso o intimidación.
+
+Violencia y daños físicos
+
+No toleramos la violencia, sea explícita o no, ningún tipo de contenido cruento, ni ningún tipo de acción o contenido que promueva o amenace con algún tipo de violencia, entre otros, amenazas o fomento de terrorismo. Están estrictamente prohibidos la agresión física, la coacción y cualquier tipo de actos violentos.
+
+Tampoco se permite el contenido que promueva o glorifique el suicidio o las autolesiones. En estos casos, podríamos tomar una serie de acciones para ayudar al usuario, entre ellas, proporcionarle recursos de ayuda ente la crisis.
+
+Discursos de odio
+
+No se acepta ningún contenido que fomente, promueva o apruebe el racismo, la intolerancia, el odio o la violencia contra individuos o grupos basado en factores como (entre otros) la raza, la etnia, las creencias religiosas, algún tipo de discapacidad, el género, la edad, el origen nacional o la identidad de género.
+
+Información privada
+
+No divulgues públicamente ninguna información privada, ya sea tuya o de otra persona. Esto incluye el número de seguro social, pasaportes, contraseñas, información financiera o información privada de contacto como teléfonos celulares, direcciones de correo electrónico, direcciones de trabajo/casa.
+
+Spam
+
+No presentes falsedades. Sé sincero. No uses Dartify para redirigir a las personas a páginas web externas a través de un enlace o de cualquier otra forma.
+
+Publicidad y prostitución
+
+En Dartify está prohibido ofrecer servicios sexuales a otros usuarios. Está bien invitar a tus parejas a ver algo que estás haciendo, pero si el propósito de tu perfil es hacer publicidad a tu evento, negocio, organización sin fines de lucro, campaña política, concurso, o para llevar a cabo una investigación, podríamos eliminar tu cuenta. Aunque nos alegra que tengas un programa cómico la semana entrante, te pedimos que no uses Dartify para promocionarlo.
+
+Prostitución y tráfico de personas
+
+Promover o fomentar el comercio de servicios sexuales, la trata de personas o cualquier acto sexual no consensuado está totalmente prohibido y tendrá como consecuencia que se inhabilite tu cuenta de Dartify.
+
+Estafas
+
+Dartify tiene una política de tolerancia cero con los comportamientos predatorios de cualquier tipo. Se expulsará a cualquier usuario que intente obtener la información privada de otros usuarios para actividades fraudulentas o ilegales. Se expulsará de Dartify a todo usuario a quien se descubra compartiendo información de su cuenta financiera (PayPal, Venmo, etc.) para recibir dinero de otros usuarios.
+
+Suplantación de identidad
+
+¡Sé tu mismo! No pretendas ser otra persona.
+
+No suplantes a otra persona ni finjas afiliación, conexión o asociación con cualquier otra persona o entidad. Esto incluye las cuentas de parodia. Aunque tu perfil de Mike Pence nos parece graciosísimo, tú no eres Mike Pence. Y si lo eres, ¿qué estás haciendo en Dartify?
+
+Menores de edad
+
+Debes tener 18 años o más para poder usar Dartify. Por lo tanto, no permitimos imágenes de niños o niñas donde aparezcan solos. Si ves un perfil que tiene la foto de un niño o niña a solas, que anima a causar daño a un menor o que muestra a un menor en una actitud sexual o sugestiva, repórtalo inmediatamente.
+
+Violación de derechos de autor y de marca registrada
+
+Si no es tuyo, no lo publiques. Si tu perfil de Dartify incluye un trabajo que es propiedad intelectual o marca registrada de otras personas, no lo muestres, a menos de que te esté permitido hacerlo.
+
+Uso para acciones ilegales
+
+No uses Dartify para hacer algo ilegal. Si es ilegal en la vida real, es ilegal en Dartify.
+
+Una cuenta por persona
+
+Las cuentas de Dartify no pueden tener varios dueños, así que no crees una cuenta con un amigo o amiga o con tu pareja. Te pedimos además que no manejes varias cuentas de Dartify
+
+Apps de terceros
+
+No está autorizado el uso de aplicaciones que hayan sido creadas por alguien que no sea Dartify y que afirmen ofrecer nuestros servicios o desbloquear funciones especiales de Dartify (como los deslizamientos automáticos).
+
+A continuación encontrarás una lista con las políticas de nuestra comunidad. Si infringes alguna de estas normas, es posible que te expulsen de Dartify. Te invitamos a que denuncies cualquier comportamiento que infrinja nuestras políticas en nuestro correo electrónico help@dartify.com
+
+20. Indemnización por tu parte.
 
 Te comprometes, en la medida permitida por la ley aplicable, a indemnizar, defender y mantener indemne a Dartify, nuestras filiales, y sus y nuestros respectivos funcionarios, directores, agentes y empleados de y contra cualquiera y todas las reclamaciones, demandas, reclamos, daños, pérdidas, costos, responsabilidades y gastos, incluidos los honorarios de abogados, debido a, que surjan de, o se relacionen de alguna manera con tu acceso o uso del Servicio, tu Contenido, o tu incumplimiento de este Acuerdo.
 
-20. Acuerdo completo; Otro.
+21. Acuerdo completo; Otro.
 
-Este Acuerdo, junto con la Política de privacidad, los Consejos de seguridad y cualquiera de los términos descritos a ti si compras o has comprado funciones, productos o servicios adicionales que ofrezcamos en el Servicio, contienen el acuerdo completo entre tú y Dartify con respecto a tu relación con Dartify y el uso del Servicio, con la siguiente excepción: nadie que se haya dado de baja de la aplicación retroactiva de la Sección 16 sigue sujeto a u obligado por cualesquiera acuerdos previos de arbitraje con Dartify así como este acuerdo de arbitraje de ahora en adelante. Si alguna disposición de este Acuerdo es considerada inválida, el resto de este Acuerdo continuará en pleno vigor y efecto. Si Dartify no ejerce o no hace valer cualquier derecho o disposición de este Acuerdo, no constituirá una renuncia a tal derecho o disposición. Aceptas que tu cuenta de Dartify no es transferible y todos tus derechos a tu cuenta y a su Contenido terminan después de tu fallecimiento. Ninguna agencia, asociación, compañía conjunta, fiduciaria u otra relación de carácter especial o laboral se crea como resultado de este Acuerdo y no puedes hacer ninguna declaración en nombre de u obligar a Dartify de ninguna manera.
-
-
-
-
-
-
-
- 
-** POLÍTICA DE PRIVACIDAD
-------------------------------------------------------------
-
-NUESTRO COMPROMISO CON USTED
-
-En Dartify, su privacidad es nuestra principal prioridad. Está en el centro de cuanto diseñamos y creamos, los servicios y productos que usted conoce y ama, así que puede confiar plenamente en ellos y centrarse en construir relaciones significativas.
-
-Le estamos agradecidos por darnos su confianza y brindarnos su información, no es algo que nos tomemos a la ligera.
-
-Nosotros no ponemos en riesgo su privacidad. Diseñamos todos los productos y servicios pensando en su privacidad. Involucramos a expertos de varios campos, (jurídico, de seguridad, ingeniería, diseño de productos y otros), para asegurarnos de que no se tome ninguna decisión que no tenga en cuenta su privacidad.
-
-Nos esforzamos por ser transparentes en la manera en que tratamos sus datos. Ya que también somos usuarios de la mayoría de los servicios en línea que usted utiliza, sabemos que una información insuficiente y un lenguaje demasiado complicado son problemas comunes de las políticas de privacidad. Por esto hemos tomado un enfoque diametralmente opuesto: nuestra Política de privacidad y los documentos relacionados están escritos en un lenguaje sencillo. Lo que queremos es que pueda leer nuestras políticas y comprender nuestras prácticas de privacidad.
-
-Trabajamos duro para mantener su información protegida y tenemos equipos dedicados a mantener sus datos protegidos y seguros. Nuestras prácticas de seguridad son constantemente actualizadas e invertimos en seguridad para mejorar la protección de su información.
-
-POLÍTICA DE PRIVACIDAD
-
-Bienvenido a la Política de privacidad de Dartify. Muchas gracias por tomarse el tiempo para leerla.
-
-Apreciamos que nos confíe su información y tenemos la intención de mantener para siempre esa confianza. Todo empieza con asegurarnos de que comprende la información que recopilamos, por qué lo hacemos, cómo la usamos y cuáles son sus opciones con respecto a su información. Esta Política describe nuestras prácticas de privacidad en lenguaje sencillo, por lo que intentamos utilizar lo menos posible la terminología jurídica y técnica.
-
-Esta Política de privacidad entra en vigor el 25 de mayo de 2018.
-
-FECHA DE ENTRADA EN VIGOR: 25 de mayo de 2018
-
-1. DÓNDE SE APLICA ESTA POLÍTICA
-
-Esta Política de privacidad se aplica a los sitios web, las aplicaciones, los eventos y demás servicios operados por Dartify. Para simplificar, en esta Política de privacidad nos referimos a todos estos como nuestros “servicios”. Para ser más claros, hemos agregado enlaces a esta Política de privacidad en todos los servicios aplicables.
-
-Algunos servicios pueden requerir su propia política de privacidad. Si un servicio en particular tiene su propia política de privacidad, entonces esa política, no esta Política de privacidad, será de aplicación.
-
-2. LA INFORMACIÓN QUE RECOPILAMOS
-
-Resulta evidente que no podemos ayudarlo a crear relaciones significativas sin contar con algo de información sobre usted, como los detalles básicos de su perfil y los tipos de personas que desearía conocer. También recopilamos información generada a medida que utiliza nuestros servicios; por ejemplo, registros de acceso, como también información de terceros, como cuando accede a nuestros servicios a través de una cuenta de las redes sociales. Si desea información adicional, entramos en mayor detalle a continuación.
-
-La información que nos proporciona
-
- * Usted elige darnos cierta información cuando utiliza nuestros servicios. Esta incluye:
- * Cuando crea una cuenta, nos proporciona por lo menos sus credenciales de inicio de sesión, como también algunos detalles básicos necesarios para que el servicio funcione, tales como su sexo y fecha de nacimiento.
- * Cuando completa su perfil, puede compartir con nosotros información adicional, tal como los detalles de su personalidad, estilo de vida, intereses, y otros detalles; y también contenido como su fotografía y videos. Para agregar cierto contexto, como fotografías o videos, puede otorgarnos permiso para que accedamos a su cámara o álbum de fotografías. Cierta información que elija brindarnos puede ser considerada “especial” o “sensible” en algunas jurisdicciones; por ejemplo, su origen racial o étnico, orientación sexual y creencias religiosas. Al otorgarnos esta información, nos da su consentimiento para que la tratemos.
- * Cuando se suscribe a un servicio de pago o realiza una compra directamente de nosotros (en vez de a través de una plataforma como iOS o Android), nos otorga, o a nuestro proveedor de servicios de pagos, información tal como su número de tarjeta de débito o crédito y otra información financiera.
- * Cuando participa en encuestas o grupos focales, nos brinda sus perspectivas acerca de nuestros productos y servicios, responde a nuestras preguntas y nos da testimonios.
- * Cuando participa en nuestras promociones, eventos o concursos, recopilamos la información que usted utiliza para registrarse o participar.
- * Si se pone en contacto con nuestro equipo de atención al cliente, recopilamos la información que nos proporciona durante la interacción. Algunas veces, supervisamos o grabamos estas interacciones para propósitos de capacitación y para asegurar una alta calidad de servicio.
- * Si nos pide comunicarnos con, o de otra manera procesar la información de, otras personas (por ejemplo, si nos pide enviar un correo electrónico en su nombre a uno de sus amigos), recopilamos la información que nos da de otras personas con el fin de poder completar su solicitud.
- * Obviamente, también procesamos sus chats con otros usuarios como también el contenido que publica, como parte de la operación de los servicios.
-
-La información que recibimos de otros
-
-Adicionalmente a la información que nos proporciona directamente, también recibimos información suya de otras personas, como, por ejemplo:
-
- * Otros usuarios:
-
-Otros usuarios pueden brindar información sobre usted a medida que utilizan nuestros servicios. Por ejemplo, podemos recopilar información suya de otros usuarios si ellos nos contactan sobre usted.
-
- * Redes sociales:
-
-Es posible que pueda usar su información de inicio de sesión en las redes sociales (como su nombre de usuario y contraseña de Facebook) para crear los datos de inicio de sesión de su cuenta en Dartify. Esto lo ayuda a no tener que recordar otro nombre de usuario y contraseña y le permite compartir algo de información de sus cuentas de las redes sociales con nosotros.
-
- * Otros socios:
-
-Puede que recibamos información suya de nuestros socios; por ejemplo, cuando se publican anuncios de Dartify en los sitios web y en las plataformas de nuestros socios (en cuyo caso ellos pueden pasar los detalles sobre el éxito de una campaña).
-
- * Información recopilada cuando utiliza nuestros servicios:
-
-Cuando utiliza nuestros servicios, recopilamos información sobre las características que utilizó, cómo las usó y los dispositivos que empleó para acceder a nuestros servicios. Vea a continuación para obtener más detalles:
-
- * Información de uso:
-
-Recopilamos información sobre su actividad en nuestros servicios; por ejemplo, cómo los usa (p. ej., la fecha y hora en las que inició sesión, las características que utilizó, sus búsquedas, los clics y las páginas que le fueron mostradas, las direcciones de los sitios web de referencia, los anuncios en los que hizo clic) y cómo interactúa con otros usuarios (p. ej., los usuarios con los que interactúa, la fecha y hora de sus intercambios, el número de mensajes que envía y recibe).
-
- * Información sobre dispositivos:
-
-Recopilamos información desde y sobre los dispositivos que utiliza para acceder a nuestros servicios, como por ejemplo:
-
- * Información sobre el hardware y software tal como la dirección de IP, la identificación y el tipo del dispositivo, las características y preferencias específicas del dispositivo y las aplicaciones, fallos en las aplicaciones, identificadores publicitarios (tales como AAID de Google e IDFA de Apple, los cuales son números generados aleatoriamente que usted puede restablecer en la configuración de dispositivo), tipo de navegador, versión e idioma, sistema operativo, zonas horarias, identificadores asociados a las cookies u otras tecnologías que puedan identificar exclusivamente a su dispositivo o navegador (p. ej., IMEI/UDID y dirección MAC);
- * Información sobre su conexión inalámbrica y móvil, como su proveedor de servicios e intensidad de señal;
- * Información sobre los sensores de su dispositivo como los acelerómetros, giróscopos y brújulas.
-
- * Otra información con su consentimiento:
-
-Si nos da su consentimiento, podremos recopilar sus fotografías y videos (por ejemplo, si desea publicar una fotografía, video o transmitir sobre los servicios).
-
-3. COOKIES Y OTRAS TECNOLOGÍAS SIMILARES DE RECOPILACIÓN DE DATOS
-
-Puede que utilicemos, y autoricemos a otros para ello, cookies y otras tecnologías similares (p. ej., balizas web, píxeles) para reconocer sus dispositivos y a usted. Puede leer nuestra Política de cookies (incluida al final de éste documento), para obtener más información sobre por qué las utilizamos (como para autenticarlo, recordar sus preferencias y configuraciones, analizar el tráfico y las tendencias del sitio, hacer campañas publicitarias y medir su efectividad, permitirle usar características sociales) y cómo puede controlar mejor su uso, a través de las preferencias de su navegador y otras herramientas.
-
-4. CÓMO UTILIZAMOS LA INFORMACIÓN
-
-La principal razón por la que utilizamos la información es para proveer y mejorar nuestros servicios. Adicionalmente, utilizamos la información para protegerlo y proveerle publicidad que sea de su interés. Continúe leyendo para obtener una explicación más detallada sobre por qué usamos su información, con ejemplos prácticos.
-
-Para administrar su cuenta y brindarle nuestros servicios
-
- * Crear y administrar su cuenta
- * Proveerle atención al cliente y responder a sus solicitudes
- * Completar sus transacciones
- * Comunicarnos con usted sobre nuestros servicios, incluida la gestión de pedidos y facturación
-
-Para ayudarlo a conectarse con otros usuarios
-
- * Analizar su perfil y el de otros usuarios para recomendarle relaciones significativas
- * Mostrar a los usuarios los perfiles de otros usuarios.
-
-Para garantizar una experiencia coherente en todos sus dispositivos
-
- * Vincule todos los dispositivos que utilice para que pueda disfrutar de una experiencia regular de nuestros servicios en todos ellos. Para conseguirlo, vinculamos los dispositivos y los datos del navegador, como cuando inicia sesión en su cuenta en diferentes dispositivos o al usar direcciones de IP parciales o completas, versiones de navegador y datos similares sobre sus dispositivos para identificarlos y vincularlos.
-
-Para proveerle nuevos servicios de Dartify
-
- * Registrarlo y mostrar su perfil en nuevas características y aplicaciones de Dartify.
- * Administrar su cuenta en estas nuevas características y aplicaciones.
-
-Para ofrecerle ofertas y anuncios relevantes
-
- * Administrar sorteos, concursos, descuentos u otras ofertas
- * Desarrollar, mostrar y rastrear contenido y publicidad adaptada a sus intereses en nuestros servicios y otros sitios
- * Comunicarnos con usted vía correo electrónico, teléfono, redes sociales o dispositivos móviles sobre los productos y servicios que creemos que pueden interesarle
-
-Para mejorar nuestros servicios y desarrollar otros nuevos
-
- * Administrar grupos focales y encuestas
- * Realizar investigaciones y análisis del comportamiento de los usuarios para mejorar nuestros servicios y contenidos (por ejemplo, podemos decidir cambiar el aspecto, o incluso modificar sustancialmente una cierta característica en función del comportamiento de los usuarios)
- * Desarrollar nuevas características y servicios (por ejemplo, podemos decidir crear una nueva característica según los intereses por las solicitudes recibidas de los usuarios).
-
-Para prevenir, detectar y luchar contra el fraude y otras actividades ilegales o no autorizadas
-
- * Para lidiar con supuestas malas conductas, o continuadas, dentro y fuera de la plataforma
- * Para realizar análisis de datos para comprender mejor y diseñar medidas para luchar contra estas actividades
- * Para conservar los datos relacionados con actividades fraudulentas para prevenir que se repitan
-
-Para garantizar el cumplimiento con la legislación
-
- * Para cumplir con los requisitos legales
- * Para asistir a las autoridades policiales
- * Para aplicar y ejercer nuestros derechos; por ejemplo, nuestros Términos y condiciones
-
-Para tratar su información como se describió previamente, utilizamos los siguientes fundamentos jurídicos:
-
- * Brindarle nuestro servicio: La mayor parte del tiempo, la razón por la que tratamos su información es para cumplir el contrato que tenemos con usted. Por ejemplo, a medida que utiliza nuestro servicio para crear relaciones significativas, nosotros utilizamos su información para mantener su cuenta y su perfil, para que sean visible para otros usuarios y para poder recomendarle otros miembros.
- * Intereses legítimos: Utilizamos su información cuando tenemos intereses legítimos para hacerlo. Por ejemplo, analizamos el comportamiento de los usuarios sobre nuestros servicios para continuamente mejorar nuestras ofertas, sugerimos ofertas que pensamos que pueden interesarle, y tratamos información por temas administrativos, detección de fraude y otros propósitos lícitos
- * Consentimiento: De vez en cuando, le pediremos su consentimiento para usar su información por razones específicas. Usted puede retirar su consentimiento en cualquier momento si nos escribe a la dirección provista al final de esta Política de privacidad.
-
-5. CÓMO COMPARTIMOS LA INFORMACIÓN
-
-Ya que nuestra meta es ayudarlo a crear relaciones significativas, obviamente, la información de los usuarios se comparte con otros usuarios. También compartimos cierta información de los usuarios con proveedores de servicios y socios que nos asisten en la operación de nuestros servicios y, en algunos casos, con las autoridades legales. Continúe leyendo para obtener más detalles sobre cómo la información se comparte con otras personas.
-
-• Con otros usuarios (hasta aquí)
-
-Usted comparte información con otros usuarios cuando revela voluntariamente información en el servicio (lo que incluye su perfil público). Por favor, tenga cuidado con su información y asegúrese de que el contenido que comparte es material que no le importa que sea vea públicamente, ya que ni usted ni nosotros podemos controlar lo que otros hacen con la información una vez que se comparte. Si elige limitar la audiencia de todo o parte de su perfil o de cierto contenido o información suya, será visible de acuerdo con sus preferencias. • Con nuestros proveedores de servicios y socios Nosotros utilizamos a terceros para que nos ayuden a operar y mejorar nuestros servicios. Estos terceros nos asisten en varias tareas, como en el alojamiento y mantenimiento de datos, analítica, atención al cliente, marketing, publicidad, procesamiento de pagos y operaciones de seguridad. Puede que también compartamos la información con socios que distribuyen y nos asisten con la publicidad de nuestros servicios. Por ejemplo, puede que compartamos información limitada sobre usted en formato procesado, ilegible para humanos, para nuestros socios publicitarios. Seguimos un estricto proceso de evaluación antes de contratar a algún proveedor de servicios o trabajar con algún socio. Todos los proveedores de servicios y socios deben aceptar estrictas obligaciones de confidencialidad. Nosotros compartimos información con otras compañías para que nos asistan en el procesamiento de su información, como proveedores de servicios, sobre nuestras instrucciones y a su nombre. La asistencia provista por otras compañías puede incluir operaciones de procesamiento técnico, tales como el alojamiento y el mantenimiento de datos, atención al cliente, marketing, y publicidad dirigida, asistencia financiera y contable, una mejor comprensión de cómo nuestro servicio es usado y el comportamiento de los usuarios para mejorar nuestro servicio, proteger nuestros datos y sistemas y luchar contra el correo no deseado, el abuso, fraude, las infracciones y otras irregularidades. Nosotros también compartimos información con otras compañías para propósitos comerciales legítimos tales como una auditoría corporativa, la conducción de análisis y la presentación de informes consolidados como también el cumplimiento con la legislación aplicable. También podremos compartir la información de los usuarios con otras compañías para retirar a los usuarios que infrinjan nuestros términos de servicio, o que hayan sido denunciados por actividades criminales y/o malos comportamientos. En algunas instancias, podremos retirar a ese usuario de todas nuestras plataformas. • Para transacciones corporativas Puede que transfiramos su información si participamos, total o parcialmente, en una fusión, venta, adquisición, desinversión, reestructuración, reorganización, disolución, quiebra u otro cambio de propiedad o control. • Cuando lo requiera la ley Podremos revelar su información si resulta razonablemente necesario: i) para cumplir con un proceso legal, como una orden judicial, citación u orden de registro, investigación gubernamental/policial u otro requisito legal; ii) para asistir en la prevención o detección de un delito (supeditado en cada caso a la legislación aplicable); o iii) para proteger la seguridad de cualquier persona. • Para aplicar derechos jurídicos También podremos compartir información: i) si la revelación mitigase nuestra responsabilidad en una demanda real o supuesta; ii) según sea necesario para proteger nuestros derechos legales y aquellos de nuestros usuarios, socios comerciales y otras partes interesadas; iii) para hacer cumplir nuestros acuerdos con usted; y iv) para investigar, prevenir, o tomar otras acciones relacionadas con actividades ilegales, sospecha de fraude u otras conductas indebidas. • Con su consentimiento o a su solicitud Puede que pidamos su consentimiento para compartir su información con terceros. En ese caso, seremos claros en cuanto a por qué deseamos compartir la información. Puede que utilicemos y compartamos información no personal (lo que significa información que, por sí misma, no identifica quién es usted, como la información de su dispositivo, datos demográficos generales, datos generales de comportamiento, geolocalización en formato no identificable), como también información personal en un formato procesado, ilegible para humanos, en cualquiera de las circunstancias antes mencionadas. También podremos compartir esta información con otras compañías socias de Dartify y terceros (especialmente anunciantes) para desarrollar y proveer publicidad dirigida sobre nuestros servicios y en sitios web o aplicaciones de terceros, y para analizar e informar sobre la publicidad que puede ver. Esta información podrá ser combinada con información no personal adicional o información en un formato procesado, ilegible para humanos, recopilada de otras fuentes. Puede obtener más información sobre nuestro uso de cookies y tecnologías similares en nuestra Política de cookies.
-
-6. TRANSFERENCIAS DE DATOS TRANSFRONTERIZAS
-
-El compartir la información establecida en la Sección 5 de este documento, algunas veces implica realizar transferencias de datos transfronterizas; por ejemplo, a los Estados Unidos de Norteamérica y otras jurisdicciones. Como ejemplo, donde el servicio permite que los usuarios estén ubicados en el Espacio Económico Europeo (“EEE”), su información personal es transferida a los países fuera del EEE. Utilizamos cláusulas contractuales modelo aprobadas por la Comisión Europea u otra protección apropiada para permitir la transferencia de datos desde el EEE a otros países. Las cláusulas contractuales modelo son compromisos vinculantes entre compañías que transfieren datos personales, para que protejan la privacidad y la seguridad de sus datos.
-
-7. SUS DERECHOS
-
-Deseamos que usted tenga el control de su información, por esto le brindamos las siguientes herramientas:
-
- * Herramientas de acceso/actualización en el servicio. Herramientas y configuración de cuenta que le ayudan a acceder, rectificar o eliminar la información que usted nos brindó y que está asociada con su cuenta directamente dentro del sistema. Si tiene alguna pregunta sobre esas herramientas y configuraciones, contacte a nuestro equipo de atención al cliente mandando un correo a help@dartify.com para obtener ayuda.
- * Permisos para los dispositivos. Las plataformas móviles tienen sistemas de permisos para tipos específicos de datos de dispositivos y notificaciones, tales como la guía telefónica, servicios de localización y las notificaciones push. Usted puede cambiar las preferencias en su dispositivo para dar su consentimiento u oponerse a la recopilación de la correspondiente información o para que se muestren las notificaciones pertinentes. Obviamente, si hace eso, ciertos servicios podrían no tener una funcionalidad completa.
- * Eliminación. Usted puede eliminar su cuenta directamente en el servicio, mediante la pertinente función para ello. Queremos que conozca sus derechos de privacidad. Algunos puntos clave a recordar: Revisar su información. Las leyes de privacidad aplicables pueden otorgarle el derecho a revisar la información personal que conservamos sobre usted (dependiendo de la jurisdicción, esto puede llamarse derecho de acceso, derecho de portabilidad o variaciones de estos términos). Puede solicitar una copia de su información personal mandando una solicitud por correo electrónico a help@dartify.com.
- * Actualizar su información. Si cree que la información que tenemos sobre usted es imprecisa o que ya no tenemos el derecho a usarla, y desea solicitar su rectificación, eliminación u oponerse a su tratamiento, contáctenos mandando un correo electrónico a help@dartify.com.
-
-Para su protección y la de nuestros usuarios, podremos pedirle que proporcione una prueba de identidad antes de responder a las solicitudes antes mencionadas.
-
-Recuerde, podemos rechazar algunas solicitudes por ciertas razones, por ejemplo, si la solicitud es ilícita o si infringe secretos comerciales, propiedad intelectual o la privacidad de otro usuario. Si desea recibir información relacionada con otro usuario, tal como una copia de un mensaje que recibió de él/ella a través de nuestro servicio, el otro usuario deberá contactar a nuestro director de Privacidad para proveer un consentimiento escrito antes de que la información se comunique.
-
-De igual forma, puede que no podamos acomodar ciertas solicitudes de oposición al tratamiento de información personal, especialmente cuando tales solicitudes no nos permitan brindarle nuestro servicio. Por ejemplo, no podemos brindar nuestro servicio si no contamos con su fecha de nacimiento.
-
- * Desinstalar. Puede detener toda recopilación de información de una aplicación desinstalándola, mediante el proceso estándar de desinstalación para su dispositivo. Si desinstala la aplicación de su dispositivo móvil, el identificador único asociado con su dispositivo continuará estando almacenado. Si reinstala la aplicación en el mismo dispositivo móvil, podremos asociar nuevamente este identificador con sus transacciones y actividades previas.
-
-8. CÓMO PROTEGEMOS SU INFORMACIÓN
-
-Trabajamos duro para protegerlo del uso no autorizado, la alteración, revelación o destrucción de su información personal. Como con todas las compañías tecnológicas, a pesar de que tomamos medidas para proteger su información, no prometemos, ni debería esperar, que su información personal siempre se mantenga segura.
-
-Supervisamos de forma habitual nuestros sistemas para hallar posibles vulnerabilidades y ataques y revisamos permanentemente las prácticas de recopilación, almacenaje y tratamiento de la información para actualizar nuestras medidas de seguridad físicas, técnicas y organizativas.
-
-Puede que suspendamos su uso de todos o parte de los servicios sin notificación si sospechamos o detectamos cualquier fallo de seguridad. Si cree que su cuenta o información ya no es segura, comuníquenoslo inmediatamente mandando un correo electrónico a help@dartify.com.
-
-9. DURANTE CUÁNTO TIEMPO CONSERVAMOS SU INFORMACIÓN
-
-Mantenemos su información personal únicamente el tiempo que la necesitemos para nuestros fines comerciales legítimos y según lo permita la legislación aplicable. Para salvaguardar la seguridad y protección de nuestros usuarios dentro y fuera de nuestros servicios, hemos implementado un periodo de conservación de seguridad de tres meses, después de la eliminación de cuenta. Durante este periodo la información de cuenta se conservará a pesar de que, obviamente, la cuenta ya no estará visible en los servicios.
-
-En la práctica, eliminamos o anonimizamos su información después de la eliminación de su cuenta (según el periodo de conservación de seguridad) o después de dos años de continua inactividad, a no ser que:
-
- * debamos mantenerla para cumplir con la legislación aplicable (por ejemplo, ciertos “datos de tráfico” se conservan durante un año para cumplir con las obligaciones legales de conservación de datos);
- * debamos mantenerla para evidenciar nuestro cumplimiento con la legislación aplicable (por ejemplo, los registros de consentimiento de nuestros Términos y condiciones, Política de privacidad y otros similares se conservan durante cinco años);
- * exista un asunto, reclamo o disputa pendiente que requiera que mantengamos la información relevante hasta su resolución; o
- * la información deba mantenerse por nuestros intereses comerciales legítimos, tales como la prevención de fraudes y la mejora de la protección y seguridad de los usuarios. Por ejemplo, puede que sea necesario mantener la información para prevenir que un usuario que fuera expulsado debido a un comportamiento inseguro o incidentes de seguridad abra una nueva cuenta.
-
-Recuerde que, aunque nuestros sistemas están diseñados para ejecutar procesos de eliminación de datos de acuerdo con las pautas antes mencionadas, no podemos prometer que todos los datos serán eliminados en un periodo de tiempo específico debido a restricciones técnicas.
-
-10. PRIVACIDAD DE MENORES
-
-Nuestros servicios están limitados a usuarios que sean mayores de 18 años. No aceptamos usuarios menores de 18 años en nuestra plataforma y no recopilamos de forma consciente información personal de nadie que sea menor. Si sospecha que un usuario es menor de 18 años, por favor notifíquenoslo a través de la función Denunciar o enviando un correo electrónico a help@dartify.com.
-
-11. CAMBIOS A LA POLÍTICA DE PRIVACIDAD
-
-Debido a que siempre buscamos formas nuevas e innovadoras de ayudarlo a construir relaciones significativas, está política puede cambiar a medida que transcurra el tiempo. Le notificaremos antes de que cualquier cambio material entre en vigor para que tenga tiempo para revisar los cambios.
-
-12. CÓMO CONTACTARNOS
-
-Si tiene preguntas sobre esta Política de privacidad, puede contactarnos mandando un correo electrónico a help@dartify.com.
-
-POLÍTICA DE COOKIES
-
-Introducción
-
-Dartify se compromete a proteger tu privacidad. Tratamos de ofrecer productos y servicios de vanguardia y de confianza para que puedas centrarte en desarrollar conexiones significativas. Nuestro enfoque sobre la privacidad es informarte de forma clara sobre nuestras prácticas de datos. Por eso hemos tratado de reducir al mínimo el vocabulario legal y técnico.
-
-Esta Política de cookies explica qué son las cookies, qué tipos de cookies se colocan en tu dispositivo cuando visitas nuestro sitio web y cómo las usamos.
-
-¿Qué son las cookies?
-
-Las cookies son pequeños archivos de texto que se envían (o a los que se accede) desde tu navegador web o la memoria de tu dispositivo. Una cookie normalmente contiene el nombre del dominio (ubicación en Internet) dónde se originó la cookie, la "vida útil" de la misma (p. ej., cuando caduca) y un número único generado al azar o un identificador similar. Una cookie también puede contener información sobre tu dispositivo, por ejemplo, los ajustes de usuario, el historial del navegador y las actividades realizadas al usar nuestros servicios.
-
-¿Existen varios tipos de cookies?
-
-Cookies de origen y cookies de terceros
-
-Existen cookies de origen y cookies de terceros. Las cookies de origen las colocamos nosotros directamente en tu dispositivo. Por ejemplo, usamos cookies de origen para adaptar nuestro sitio web a las preferencias de idioma de tu dispositivo y para conocer mejor cómo usas el sitio web. Las cookies de terceros las instalan en tu dispositivo nuestros socios y proveedores de servicios. Por ejemplo, usamos cookies de terceros para medir el número de usuarios de nuestro sitio web o para permitir que compartas contenido con otros usuarios en las redes sociales.
-
-Cookies persistentes y de sesión
-
-Existen cookies persistentes y de sesión. Las cookies de sesión solo duran hasta que cierras el navegador. Usamos cookies de sesión por varias razones, por ejemplo, conocer más acerca del uso que haces de nuestro sitio web durante una sola sesión del navegador y ayudarte a usar nuestro sitio web de forma más eficaz. Las cookies persistentes tienen una vida útil más larga y no se eliminan automáticamente cuando cierras el navegador. Este tipo de cookies se usa principalmente para ayudarte a iniciar sesión rápidamente en nuestro sitio web y para fines de análisis.
-
-¿Qué hay de las otras tecnologías de seguimiento?
-
-Usamos otras tecnologías, como direcciones URL de seguimiento o kits de desarrollo de software (SDK, por sus siglas en inglés) con fines similares. Las balizas web son pequeños archivos gráficos que contienen un identificador único que nos permite saber si alguien ha visitado nuestros servicios o ha abierto un correo electrónico que le hayamos enviado. Las direcciones URL de seguimiento son enlaces personalizados que nos ayudan a comprender de dónde viene el tráfico de nuestras páginas web. Los SDK son pequeños fragmentos de código que se incluyen en las apps y funcionan como las cookies y las balizas web.
-
-Para simplificar, en esta Política de cookies todas estas tecnologías también se denominan "cookies".
-
-¿Para qué usamos las cookies?
-
-Como la mayoría de proveedores de servicios online, usamos cookies para ofrecer, mejorar y proteger nuestros servicios, por ejemplo, para recordar tus preferencias, reconocerte cuando visitas nuestro sitio web y personalizar y ajustar los anuncios a tus intereses. Para conseguir esto, es posible que también asociemos información de las cookies con información personal adicional que tengamos sobre ti.
-
-Cuando visites nuestro sitio web, es posible que algunos de los siguientes tipos de cookies, o todos ellos, se instalen en tu dispositivo.
-
-Tipo de cookie Descripción Cookies esenciales del sitio web
-Estas cookies son estrictamente necesarias para prestarte nuestros servicios en el sitio web y para que puedas usar algunas de sus funciones, como el acceso a áreas seguras.
-Cookies de análisis Estas cookies nos permiten conocer cómo se usa nuestro sitio web, el grado de eficacia de las campañas publicitarias y también nos ayudan a personalizar y mejorar nuestros sitios web para cada usuario. Cookies publicitarias Estas cookies sirven para que los anuncios que ves sean más relevantes para ti. Por ejemplo, impiden que aparezca el mismo anuncio constantemente, garantizan que los anuncios se muestren correctamente según los anunciantes, seleccionan anuncios en función de tus intereses y miden el número de anuncios mostrados y su rendimiento (p. ej., cuántas personas han hecho clic en un anuncio). Cookies de redes sociales Estas cookies se usan para que puedas compartir páginas y contenido de nuestro sitio web que te resulten interesantes a través de redes sociales y sitios web de terceros. Estas cookies también se pueden usar con fines publicitarios.
-
-¿Cómo puedes controlar las cookies?
-
-Dispones de varias opciones de gestión de cookies. Ten en cuenta que los cambios que hagas a tus preferencias de cookies pueden afectar negativamente a la navegación por nuestro sitio web. En determinados casos, es posible que no puedas usar todo o parte de nuestro sitio web.
-
-Controles de navegador y dispositivos
-
-Algunos navegadores web tienen ajustes que permiten controlar o rechazar las cookies o que avisan cuando se instala una cookie en tu ordenador. El procedimiento para gestionar las cookies es ligeramente diferente en cada navegador web. Puedes consultar los pasos específicos en el menú de ayuda de tu navegador.
-
-También es posible que puedas restablecer los identificadores de tu dispositivo activando el ajuste pertinente en tu dispositivo móvil. El procedimiento para gestionar los identificadores del dispositivo es ligeramente diferente en cada dispositivo. Puedes consultar los pasos específicos en el menú de ayuda o ajustes de tu dispositivo.
-
-Herramientas de publicidad basada en intereses
-
-La exclusión voluntaria no significa que no verás anuncios, simplemente significa que no verás anuncios personalizados de las compañías que participen en estos programas. Por otra parte, si escoges esta opción y luego borras las cookies de tu dispositivo, tendrás que volver a seleccionar la opción de exclusión voluntaria.
-
-Cookies sociales
-
-Para que puedas compartir contenido en redes sociales, algunas de las funciones de este sitio web utilizan complementos de redes sociales (p. ej., los botones de Twitter™, “Compartir en Twitter”, o de LinkedIn™, “en”). En función de los ajustes de tu cuenta de redes sociales, recibiremos automáticamente información de la plataforma de redes sociales cuando uses el botón correspondiente en nuestra página web.
-
-Cookies Google™
-
-Cosas que Google quiere asegurarse de que sepas sobre su tecnología de recopilación de datos.
-
-Cookies API de Google™ Maps
-
-Algunas funciones de nuestro sitio web y algunos servicios de Dartify usan las Cookies API de Google™ Maps. Dichas cookies se almacenarán en tu dispositivo.
-
-Al navegar por este sitio web y usar los servicios que utilizan cookies API de Google™ Maps, das tu consentimiento para que se almacenen y recopilen dichas cookies en tu dispositivo y para que Google acceda a los datos recopilados, los use y los comparta.
-
-Google™ gestiona la información y tus preferencias sobre las cookies API de Google™ Maps a través de una interfaz distinta a la que ofrece tu navegador. Si quieres obtener más información, visita https://www.google.com/policies/technologies/cookies/.
-
-Google Analytics
-
-Usamos Google Analytics, un servicio de Google que utiliza cookies y otras tecnologías de recopilación de datos, para recopilar información sobre el uso que haces del sitio web y los servicios con el objetivo de informar de las tendencias de sitios web.
-
-Para excluirte de Google Analytics, visita www.google.com/settings/ads o descarga la extensión de navegador para la autoexclusión de Google Analytics https://tools.google.com/dlpage/gaoptout.
-
-¿Cómo puedes contactar con nosotros?
-
-Si tienes dudas sobre esta Política de cookies, ponte en contacto con nosotros mandando un correo electrónico a help@dartify.com.
+Este Acuerdo, junto con la Política de privacidad, los Consejos de seguridad y cualquiera de los términos descritos a ti si compras o has comprado funciones, productos o servicios adicionales que ofrezcamos en el Servicio, contienen el acuerdo completo entre tú y Dartify con respecto a tu relación con Dartify y el uso del Servicio, con la siguiente excepción: nadie que se haya dado de baja de la aplicación retroactiva de la Sección 16 sigue sujeto a u obligado por cualesquiera acuerdos previos de arbitraje con Dartify así como este acuerdo de arbitraje de ahora en adelante. Si alguna disposición de este Acuerdo es considerada inválida, el resto de este Acuerdo continuará en pleno vigor y efecto. Si Dartify no ejerce o no hace valer cualquier derecho o disposición de este Acuerdo, no constituirá una renuncia a tal derecho o disposición. Aceptas que tu cuenta de Dartify no es transferible y todos tus derechos a tu cuenta y a su Contenido terminan después de tu fallecimiento. Ninguna agencia,
+asociación, compañía conjunta, fiduciaria u otra relación de carácter especial o laboral se crea como resultado de este Acuerdo y no puedes hacer ninguna declaración en nombre de u obligar a Dartify de ninguna manera.

@@ -122,6 +122,14 @@
                 android:theme="@style/HorizontalDivider" />
 
             <Button
+                android:id="@+id/buttonTOS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                android:text="@string/TOSTitle"
+                android:theme="@style/FragmentMenuButton" />
+
+            <Button
                 android:id="@+id/buttonLogout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

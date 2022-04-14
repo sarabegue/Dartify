@@ -6,14 +6,18 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 //import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.lifecycle.ViewModelProviders;
@@ -34,6 +38,7 @@ import com.mentit.dartify.Models.ViewModel.FotoUsuarioViewModel;
 import com.mentit.dartify.Models.ViewModel.MensajeChatViewModel;
 import com.mentit.dartify.Models.ViewModel.PerfilCardViewModel;
 import com.mentit.dartify.R;
+import com.mentit.dartify.Tasks.Match.PutUserBlockedReportStatusTask;
 import com.mentit.dartify.util.FormatUtil;
 
 import java.lang.ref.WeakReference;
@@ -43,7 +48,7 @@ import java.util.List;
 import rm.com.longpresspopup.LongPressPopup;
 import rm.com.longpresspopup.LongPressPopupBuilder;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity implements PutUserBlockedReportStatusTask.OnTaskCompleted{
     PerfilCard perfil = null;
     private EstadoCardViewModel eviewmodel;
     private FotoUsuarioViewModel fviewmodel;
@@ -62,6 +67,7 @@ public class ProfileActivity extends AppCompatActivity {
     private ImageView chatButton;
     private ImageView stickerImageButton;
     private ImageView favoriteImageButton;
+    private ImageButton blockButton;
     private Context context;
 
     private List<EstadoCard> listaEstados;
@@ -91,6 +97,7 @@ public class ProfileActivity extends AppCompatActivity {
         chatButton = findViewById(R.id.chatButton);
         stickerImageButton = findViewById(R.id.imageViewSticker);
         favoriteImageButton = findViewById(R.id.imageViewFavoritePerson);
+        blockButton = findViewById(R.id.blockButton);
 
         userid1 = SharedPreferenceUtils.getInstance(context).getLongValue(context.getString(R.string.user_id), 0);
         userid2 = getIntent().getExtras().getLong("id");
@@ -123,6 +130,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         chatButton.setOnClickListener(iniciarChat);
         favoriteImageButton.setOnClickListener(clickFavoriteListener);
+        blockButton.setOnClickListener(bloquearUsuario);
     }
 
     @Override
@@ -170,6 +178,26 @@ public class ProfileActivity extends AppCompatActivity {
                 favviewmodel.addFavorite(userid1, userid2);
             }
         }
+    };
+
+    private View.OnClickListener bloquearUsuario = v -> {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+
+        View mView = inflater.inflate(R.layout.layout_blockuser, null);
+        final EditText textoreporte = mView.findViewById(R.id.textreporte);
+
+        builder.setTitle(R.string.blockusertitle);
+        builder.setView(mView);
+        builder.setPositiveButton(R.string.blockuserbuttonpositive, (dialog, which) -> {
+            new PutUserBlockedReportStatusTask(context, userid1, userid2, 1, textoreporte.getText().toString()).execute("");
+        });
+
+        builder.setNegativeButton(R.string.negativeButton, (dialog, which) -> {
+        });
+
+        androidx.appcompat.app.AlertDialog dialog = builder.create();
+        dialog.show();
     };
 
     private ProfileAdapter.OnItemClickListener nClickListenerProfile = (id, position) -> {
@@ -513,6 +541,11 @@ public class ProfileActivity extends AppCompatActivity {
         }
 
         */
+    }
+
+    @Override
+    public void OnTaskCompletedPutBlockedReportStatus() {
+        finish();
     }
 
     private static class GetPerfilAsyncTask extends AsyncTask<Void, Void, Void> {

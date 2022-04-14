@@ -46,6 +46,7 @@ public class MenuFragment extends Fragment {
     private Button buttonBlockedUsers;
     private Button buttonLogout;
     private Button buttonDeleteAccount;
+    private Button buttonTOS;
     private TextView textviewFirstName;
     private Context context;
     private ImageView ivStore;
@@ -79,6 +80,7 @@ public class MenuFragment extends Fragment {
         buttonJustNow = v.findViewById(R.id.buttonJustNow);
         buttonFilter = v.findViewById(R.id.buttonFilter);
         buttonBlockedUsers = v.findViewById(R.id.buttonBlockedUsers);
+        buttonTOS = v.findViewById(R.id.buttonTOS);
         buttonDeleteAccount = v.findViewById(R.id.buttonDeleteAccount);
         buttonLogout = v.findViewById(R.id.buttonLogout);
         textviewFirstName = v.findViewById(R.id.textviewFirstName);
@@ -92,6 +94,7 @@ public class MenuFragment extends Fragment {
         buttonJustNow.setOnClickListener(clickUserJustoAhora);
         buttonFilter.setOnClickListener(clickUserFiltro);
         buttonBlockedUsers.setOnClickListener(clickUserBloqueados);
+        buttonTOS.setOnClickListener(clickTOS);
         buttonLogout.setOnClickListener(clickLogout);
         buttonDeleteAccount.setOnClickListener(clickUserCancel);
 
@@ -209,6 +212,13 @@ public class MenuFragment extends Fragment {
         }
     };
 
+    private View.OnClickListener clickTOS = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            mCallBack.onUserTOS();
+        }
+    };
+
     private View.OnClickListener clickUserCancel = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -252,10 +262,13 @@ public class MenuFragment extends Fragment {
 
         void onUserBloqueados();
 
+        void onUserTOS();
+
         void onUserStore();
 
         void onUserLogout();
 
         void onUserCancel();
+
     }
 }

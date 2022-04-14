@@ -170,6 +170,7 @@ public class MainActivity extends AppCompatActivity implements
 
         //handleIntent(getIntent());
     }
+
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
@@ -416,6 +417,13 @@ public class MainActivity extends AppCompatActivity implements
         Toasty.success(this, "Bloqueados", Toast.LENGTH_SHORT, true).show();
         Intent i;
         i = new Intent(this, BlockedUsersActivity.class);
+        startActivity(i);
+    }
+
+    @Override
+    public void onUserTOS() {
+        Intent i;
+        i = new Intent(this, TOSActivity.class);
         startActivity(i);
     }
 

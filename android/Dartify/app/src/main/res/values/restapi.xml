@@ -19,6 +19,8 @@
     <string name="match_favoritestatus">/match/estatusfavorito/</string>
     <string name="match_descartado">/match/descartado/</string>
 
+    <string name="tienda_compra">/tienda/compra/</string>
+
     <string name="chat_list">/chat/listado/</string>
     <string name="chat_messages">/chat/mensajes/</string>
     <string name="chat_newmessages">/chat/mensajesnuevos/</string>

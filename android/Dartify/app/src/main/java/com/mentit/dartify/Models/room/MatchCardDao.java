@@ -29,19 +29,17 @@ public interface MatchCardDao {
     @Query("UPDATE MatchCard SET visto = 1 WHERE userid2 = :userid2")
     void visto(long userid2);
 
-    @Query("SELECT * FROM MatchCard WHERE userid1= :userid AND visto = 0 AND oculto = 0")
-    LiveData<List<MatchCard>> getAllCards(long userid);
+    @Query("SELECT * FROM MatchCard WHERE userid1= :userid AND visto = 0 AND oculto = 0 AND (tipomatch BETWEEN 1 AND :tipomatch) ")
+    LiveData<List<MatchCard>> getAllCards(long userid, int tipomatch);
+
+    @Query("UPDATE MatchCard SET tipomatch = :tipomatch WHERE userid2 = :userid2")
+    void tmatch(long userid2, int tipomatch);
 
     @Query("SELECT COUNT(*) FROM MatchCard")
     int getCount();
 
     @Query("SELECT * FROM MatchCard WHERE userid2= :userid2")
     LiveData<List<MatchCard>> getCard(long userid2);
-
-    /*
-    @Query("SELECT * FROM MatchCard WHERE userid2= :userid2")
-     List<MatchCard>  getOcultos(long userid2);
-     */
 
     @Query("SELECT DISTINCT(userid2) FROM MatchCard WHERE oculto = 1 AND userid1 = :userid ")
     List<Long> getOcultos(long userid);

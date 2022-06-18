@@ -41,6 +41,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="3dp"
+                    android:text="-"
                     android:textColor="@color/white" />
 
                 <TextView
@@ -48,6 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="3dp"
+                    android:text="-"
                     android:paddingLeft="5dp"
                     android:textColor="@color/white" />
             </LinearLayout>

@@ -70,7 +70,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guidelineH2" />
+        app:layout_constraintTop_toTopOf="@id/guidelineH3" />
 
     <com.synnapps.carouselview.CarouselView
         android:id="@+id/carouselView"
@@ -85,7 +85,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:pageColor="#00000000"
         app:radius="6dp"
-        app:slideInterval="3000"
+        app:slideInterval="4000"
         app:strokeColor="@color/white"
         app:strokeWidth="1dp" />
 
@@ -121,7 +121,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@id/guidelineH2"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="@id/guidelineV0"
         app:layout_constraintTop_toBottomOf="@id/carouselView">
@@ -132,7 +132,7 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center_vertical"
             android:lines="2"
-            android:text="12"
+            android:text="1"
             android:textColor="#555"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -142,27 +142,37 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:lines="2"
-            android:text="meses"
+            android:text="mes"
             android:textColor="#555" />
 
         <TextView
+            android:id="@+id/tvprecio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#555" />
+
+        <Button
+            android:id="@+id/buttonComprar1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="$79.99 al mes"
-            android:textColor="#555" />
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbutton"
+            android:text="Comprar"
+            android:textColor="@color/white" />
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@id/guidelineH2"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH3"
         app:layout_constraintLeft_toLeftOf="@id/guidelineV0"
         app:layout_constraintRight_toRightOf="@id/guidelineV4"
         app:layout_constraintTop_toBottomOf="@id/carouselView">
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -170,7 +180,7 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center_vertical"
             android:lines="2"
-            android:text="12"
+            android:text="3"
             android:textColor="#555"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -184,19 +194,30 @@
             android:textColor="#555" />
 
         <TextView
+            android:id="@+id/tvprecio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#555" />
+
+        <Button
+            android:id="@+id/buttonComprar2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="$79.99 al mes"
-            android:textColor="#555" />
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbutton"
+            android:text="Comprar"
+            android:textColor="@color/white" />
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@id/guidelineH2"
+        app:layout_constraintBottom_toTopOf="@id/guidelineH3"
         app:layout_constraintLeft_toLeftOf="@id/guidelineV4"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/carouselView">
@@ -207,7 +228,7 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center_vertical"
             android:lines="2"
-            android:text="12"
+            android:text="6"
             android:textColor="#555"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -221,25 +242,27 @@
             android:textColor="#555" />
 
         <TextView
+            android:id="@+id/tvprecio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#555" />
+
+        <Button
+            android:id="@+id/buttonComprar3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="$79.99 al mes"
-            android:textColor="#555" />
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbutton"
+            android:text="Comprar"
+            android:textColor="@color/white" />
     </LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/actionbutton"
-        android:text="Comprar"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/guidelineH3"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guidelineH2" />
-
-    <Button
+        android:id="@+id/buttonCancelarCompra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No, gracias"

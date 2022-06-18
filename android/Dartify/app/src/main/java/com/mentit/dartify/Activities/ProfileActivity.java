@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-//import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
@@ -14,8 +13,6 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TableLayout;
-import android.widget.TableRow;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -48,7 +45,7 @@ import java.util.List;
 import rm.com.longpresspopup.LongPressPopup;
 import rm.com.longpresspopup.LongPressPopupBuilder;
 
-public class ProfileActivity extends AppCompatActivity implements PutUserBlockedReportStatusTask.OnTaskCompleted{
+public class ProfileActivity extends AppCompatActivity implements PutUserBlockedReportStatusTask.OnTaskCompleted {
     PerfilCard perfil = null;
     private EstadoCardViewModel eviewmodel;
     private FotoUsuarioViewModel fviewmodel;
@@ -230,7 +227,6 @@ public class ProfileActivity extends AppCompatActivity implements PutUserBlocked
         popupA.dismissNow();
         mviewmodel.guardarMensaje(FormatUtil.getChatRoom(userid1, userid2), userid1, userid2, v.getTag().toString(), 2);
     }
-
 
     public void cargarDatosUsuario(PerfilCard p) {
         TableLayout tableLayoutPerfil = findViewById(R.id.tableLayoutPerfil);

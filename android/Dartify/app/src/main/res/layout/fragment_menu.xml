@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -52,13 +53,47 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/storeButton"
+                android:id="@+id/imageviewPremium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-10dp"
                 android:layout_marginBottom="10dp"
                 android:adjustViewBounds="true"
                 android:src="@drawable/premiumplaceholder" />
+
+            <TextView
+                android:id="@+id/textviewVencimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="-66dp"
+                android:layout_marginBottom="20dp"
+                android:text="Vencimiento: 0000-00-00"
+                android:textColor="@color/white"></TextView>
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselMenu"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="25dp"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="4000"
+                app:strokeColor="@color/white"
+                android:background="@drawable/layout_border_carrousel"
+                app:strokeWidth="1dp" />
+
+            <Button
+                android:id="@+id/storeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-50dp"
+                android:background="@color/transparent"
+                android:padding="5dp"
+                android:text="@string/store_upgrade"
+                android:textColor="@color/white"></Button>
 
             <Button
                 android:id="@+id/buttonQuimica"
@@ -74,8 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:theme="@style/HorizontalDivider"
-                android:visibility="gone" />
+                android:theme="@style/HorizontalDivider" />
 
             <Button
                 android:id="@+id/buttonMyWall"
@@ -83,8 +117,7 @@
                 android:layout_height="wrap_content"
                 android:stateListAnimator="@null"
                 android:text="@string/mywall"
-                android:theme="@style/FragmentMenuButton"
-                android:visibility="gone" />
+                android:theme="@style/FragmentMenuButton" />
 
             <Button
                 android:id="@+id/buttonJustNow"
@@ -93,7 +126,7 @@
                 android:stateListAnimator="@null"
                 android:text="@string/justnow"
                 android:theme="@style/FragmentMenuButton"
-                android:visibility="gone"
+
                 />
 
             <Button
@@ -111,8 +144,7 @@
                 android:layout_height="wrap_content"
                 android:stateListAnimator="@null"
                 android:text="@string/blockedusers"
-                android:theme="@style/FragmentMenuButton"
-                android:visibility="gone" />
+                android:theme="@style/FragmentMenuButton" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -143,8 +175,7 @@
                 android:layout_height="wrap_content"
                 android:stateListAnimator="@null"
                 android:text="@string/deleteaccount"
-                android:theme="@style/FragmentMenuButton"
-                android:visibility="gone" />
+                android:theme="@style/FragmentMenuButton" />
 
         </LinearLayout>
     </ScrollView>

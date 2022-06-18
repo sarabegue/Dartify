@@ -30,6 +30,8 @@ import com.mentit.dartify.Models.ViewModel.NotificationCardViewModel;
 import com.mentit.dartify.Models.ViewModel.PerfilCardViewModel;
 import com.mentit.dartify.Models.ViewModel.PersonaOcultaViewModel;
 import com.mentit.dartify.R;
+import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.ViewListener;
 
 
 public class MenuFragment extends Fragment {
@@ -39,6 +41,7 @@ public class MenuFragment extends Fragment {
 
     private LinearLayout linearLayoutProfile;
     private ImageView imageViewAvatar;
+    private ImageView imageviewPremium;
     private Button buttonQuimica;
     private Button buttonMyWall;
     private Button buttonJustNow;
@@ -48,8 +51,9 @@ public class MenuFragment extends Fragment {
     private Button buttonDeleteAccount;
     private Button buttonTOS;
     private TextView textviewFirstName;
+    private TextView textviewVencimiento;
     private Context context;
-    private ImageView ivStore;
+    private Button ivStore;
     private NotificationCardViewModel dcviewmodel;
     private MensajeChatViewModel mcviewmodel;
     private FavoriteCardViewModel fviewmodel;
@@ -57,7 +61,9 @@ public class MenuFragment extends Fragment {
     private PerfilCardViewModel pviewmodel;
     private PersonaOcultaViewModel poviewmodel;
 
+    CarouselView carousel;
     private long userid;
+    int TOTAL_PAGES = 4;
 
     public MenuFragment() {
 
@@ -74,6 +80,7 @@ public class MenuFragment extends Fragment {
 
         linearLayoutProfile = v.findViewById(R.id.linearLayoutProfile);
         imageViewAvatar = v.findViewById(R.id.imageViewAvatar);
+        imageviewPremium = v.findViewById(R.id.imageviewPremium);
 
         buttonQuimica = v.findViewById(R.id.buttonQuimica);
         buttonMyWall = v.findViewById(R.id.buttonMyWall);
@@ -84,6 +91,12 @@ public class MenuFragment extends Fragment {
         buttonDeleteAccount = v.findViewById(R.id.buttonDeleteAccount);
         buttonLogout = v.findViewById(R.id.buttonLogout);
         textviewFirstName = v.findViewById(R.id.textviewFirstName);
+        textviewVencimiento = v.findViewById(R.id.textviewVencimiento);
+
+        carousel = v.findViewById(R.id.carouselMenu);
+        carousel.setPageCount(TOTAL_PAGES);
+        carousel.setViewListener(vListener);
+        carousel.setIndicatorVisibility(View.GONE);
 
         ivStore = v.findViewById(R.id.storeButton);
 
@@ -98,7 +111,7 @@ public class MenuFragment extends Fragment {
         buttonLogout.setOnClickListener(clickLogout);
         buttonDeleteAccount.setOnClickListener(clickUserCancel);
 
-        //ivStore.setOnClickListener(clickUserStore);
+        ivStore.setOnClickListener(clickUserStore);
 
         context = v.getContext();
         dcviewmodel = ViewModelProviders.of(this).get(NotificationCardViewModel.class);
@@ -119,6 +132,17 @@ public class MenuFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
+
+        int membresia = SharedPreferenceUtils.getInstance(context).getIntValue("membresia", 1);
+
+        if (membresia == 1) {
+            textviewVencimiento.setVisibility(View.GONE);
+            imageviewPremium.setVisibility(View.GONE);
+        } else {
+            carousel.setVisibility(View.GONE);
+            ivStore.setVisibility(View.GONE);
+            textviewVencimiento.setText("Vencimiento: " + SharedPreferenceUtils.getInstance(context).getStringValue("vencimiento", ""));
+        }
 
         foviewmodel = ViewModelProviders.of(this).get(FotoUsuarioViewModel.class);
 
@@ -155,6 +179,53 @@ public class MenuFragment extends Fragment {
         super.onDetach();
         mCallBack = null;
     }
+
+    ViewListener vListener = position -> {
+        View v = getLayoutInflater().inflate(R.layout.storeitem_menu_layout, null);
+
+        String title = "";
+        String text = "";
+
+        LinearLayout ll = v.findViewById(R.id.storeitem_slide);
+        TextView titleview = v.findViewById(R.id.storeitem_title);
+        ImageView imgview = v.findViewById(R.id.storeitem_image);
+
+        int img = 0;
+        int col = 0;
+
+        switch (position) {
+            case 0: {
+                title = "Encuentra a tus match más compatibles";
+                img = R.drawable.store_user;
+                col = R.color.store3;
+                break;
+            }
+            case 1: {
+                title = "Ver a usuarios en tu alcance vibracional";
+                img = R.drawable.store_justnow;
+                col = R.color.store2;
+                break;
+            }
+            case 2: {
+                title = "Guarda tus match en tu lista de favoritos";
+                img = R.drawable.store_star;
+                col = R.color.store4;
+                break;
+            }
+            case 3: {
+                title = "Sin anuncios";
+                img = R.drawable.store_cross;
+                col = R.color.store5;
+                break;
+            }
+        }
+
+        imgview.setImageResource(img);
+        titleview.setText(title);
+        ll.setBackgroundResource(col);
+
+        return v;
+    };
 
     private View.OnClickListener clickAvatarProfile = new View.OnClickListener() {
         @Override

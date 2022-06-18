@@ -97,7 +97,7 @@ public class HomeFragment extends Fragment {
         matches = new ArrayList<>();
 
         cardStackView = v.findViewById(R.id.recyclerViewPeople);
-        nAdapter = new PeopleAdapter(matches, R.layout.cardview_person2, nClickListener, context);
+        nAdapter = new PeopleAdapter(matches, R.layout.cardview_person3, nClickListener, context);
 
         cardmanager = new CardStackLayoutManager(context, clistener);
 
@@ -154,7 +154,9 @@ public class HomeFragment extends Fragment {
         viewmodel = ViewModelProviders.of(this).get(MatchCardViewModel.class);
         poviewmodel = ViewModelProviders.of(this).get(PersonaOcultaViewModel.class);
 
-        viewmodel.getData(userid1).observe(this, data -> {
+        int membresia = SharedPreferenceUtils.getInstance(context).getIntValue("membresia", 1);
+
+        viewmodel.getData(userid1, membresia).observe(this, data -> {
             nAdapter.setData(data);
             if (data.size() > 0) {
                 iv.setVisibility(View.GONE);

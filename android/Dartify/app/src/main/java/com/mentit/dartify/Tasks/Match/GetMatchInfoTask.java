@@ -63,17 +63,19 @@ public class GetMatchInfoTask extends AsyncTask<String, Void, String> {
                     for (int index = 0; index < datos.length(); index++) {
                         try {
                             long userid2;
+                            int numtipomatch = 1;
                             String strtexto1, strtexto2, strres1;
 
                             JSONObject p = datos.getJSONObject(datos.names().get(index).toString()).getJSONObject("perfil");
                             JSONArray f = datos.getJSONObject(datos.names().get(index).toString()).getJSONArray("fotosprincipales");
+                            numtipomatch = datos.getJSONObject(datos.names().get(index).toString()).getInt("tipo");
 
                             userid2 = p.getLong("id");
                             strtexto1 = p.getString("strfirstname");
                             strtexto2 = p.getString("datefechanacimiento");
                             strres1 = strpath + ((JSONObject) f.get(0)).getString("strsource");
 
-                            dao.insert(new MatchCard(userid2 + "", userid, userid2, strtexto1, strtexto2, "", strres1, "", 0));
+                            dao.insert(new MatchCard(userid2 + "", userid, userid2, strtexto1, strtexto2, "", strres1, "", 0, numtipomatch));
                         } catch (Exception x) {
                             //Log.d("EXCEPCION MATCH", x.getMessage() + x.getLocalizedMessage() + x.getStackTrace());
                         }

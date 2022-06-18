@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
@@ -52,7 +53,7 @@ public class PeopleAdapter extends RecyclerView.Adapter<PeopleAdapter.ViewHolder
                 )
                 .into(holder.imagePerson);
 
-        holder.bind(o.getUserid2(), o.getTexto1(), o.getEdad() + " " + context.getString(R.string.years), listener);
+        holder.bind(o.getUserid2(), o.getTexto1(), o.getEdad() + " " + context.getString(R.string.years), listener, o.getTipomatch());
     }
 
     @Override
@@ -72,25 +73,38 @@ public class PeopleAdapter extends RecyclerView.Adapter<PeopleAdapter.ViewHolder
 
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public ImageView imagePerson;
+        public ImageView imageIcon;
         public TextView line1;
         public TextView line2;
+        public ConstraintLayout layout;
 
         public long itemid = 0;
 
         public ViewHolder(View v) {
             super(v);
             this.imagePerson = v.findViewById(R.id.imageViewPerson1);
+            this.imageIcon = v.findViewById(R.id.imageViewPersonIcono);
             this.line1 = v.findViewById(R.id.textViewPersonLine1);
             this.line2 = v.findViewById(R.id.textViewPersonLine2);
+            this.layout = v.findViewById(R.id.constraintLayoutPerson1);
         }
 
-        public void bind(final long id, final String line1, final String line2, final OnItemClickListener listener) {
+        public void bind(final long id, final String line1, final String line2, final OnItemClickListener listener, int tipo) {
             this.line1.setText(line1);
             this.line2.setText(line2);
 
             itemid = id;
 
             imagePerson.setOnClickListener(v -> listener.onItemClick(line1, getAdapterPosition(), itemid));
+
+            if (tipo == 1) {
+                imageIcon.setVisibility(View.GONE);
+                layout.setBackgroundResource(R.drawable.layout_border_person1);
+            }
+            if (tipo == 2) {
+                imageIcon.setVisibility(View.VISIBLE);
+                layout.setBackgroundResource(R.drawable.layout_border_person2);
+            }
         }
 
         @Override

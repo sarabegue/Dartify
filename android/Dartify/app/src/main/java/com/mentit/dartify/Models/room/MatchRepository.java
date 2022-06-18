@@ -51,13 +51,13 @@ public class MatchRepository {
         return dao.getMatch(userid2);
     }
 
-    public LiveData<List<MatchCard>> getAllDataCards(long userid) {
-        data = dao.getAllCards(userid);
+    public LiveData<List<MatchCard>> getAllDataCards(long userid, int tipomatch) {
+        data = dao.getAllCards(userid, tipomatch);
         return data;
     }
 
-    public LiveData<List<MatchCard>> getCard(long userid2) {
-        data = dao.getAllCards(userid2);
+    public LiveData<List<MatchCard>> getCard(long userid2, int tipomatch) {
+        data = dao.getAllCards(userid2, tipomatch);
         return data;
     }
 

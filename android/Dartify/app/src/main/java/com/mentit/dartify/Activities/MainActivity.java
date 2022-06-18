@@ -52,6 +52,7 @@ import com.mentit.dartify.Models.ViewModel.NotificationCardViewModel;
 import com.mentit.dartify.Models.ViewModel.PerfilCardViewModel;
 import com.mentit.dartify.R;
 import com.mentit.dartify.Tasks.Notification.PutNotificationDeviceUserTask;
+import com.mentit.dartify.Tasks.Tienda.GetPurchaseTask;
 import com.mentit.dartify.Tasks.User.GetUserProfileTask;
 
 import org.json.JSONObject;
@@ -64,7 +65,8 @@ public class MainActivity extends AppCompatActivity implements
         HomeFragment.DataListener,
         NotificationFragment.DataListener,
         ChatListFragment.DataListener,
-        GetUserProfileTask.OnTaskCompleted {
+        GetUserProfileTask.OnTaskCompleted,
+        GetPurchaseTask.OnTaskCompleted {
 
     private NotificationCardViewModel nviewmodel;
     private MensajeChatViewModel cviewmodel;
@@ -121,76 +123,67 @@ public class MainActivity extends AppCompatActivity implements
             }
         });
 
-        AdRequest adRequest = new AdRequest.Builder().build();
+        int membresia = SharedPreferenceUtils.getInstance(context).getIntValue("membresia", 1);
 
-        InterstitialAd.load(this, BuildConfig.BLOCK_INSTERSTITIAL_1, adRequest,
-                new InterstitialAdLoadCallback() {
-                    @Override
-                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-                        // The mInterstitialAd reference will be null until
-                        // an ad is loaded.
-                        mInterstitialAd = interstitialAd;
-                        if (mInterstitialAd != null) {
-                            mInterstitialAd.show(MainActivity.this);
+        if (membresia == 1) {
+            AdRequest adRequest = new AdRequest.Builder().build();
 
-                            mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
-                                @Override
-                                public void onAdDismissedFullScreenContent() {
-                                    // Called when fullscreen content is dismissed.
-                                    Log.d("Intestitial Ad", "The ad was dismissed.");
-                                }
+            InterstitialAd.load(this, BuildConfig.BLOCK_INSTERSTITIAL_1, adRequest,
+                    new InterstitialAdLoadCallback() {
+                        @Override
+                        public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                            // The mInterstitialAd reference will be null until
+                            // an ad is loaded.
+                            mInterstitialAd = interstitialAd;
+                            if (mInterstitialAd != null) {
+                                mInterstitialAd.show(MainActivity.this);
 
-                                @Override
-                                public void onAdFailedToShowFullScreenContent(AdError adError) {
-                                    // Called when fullscreen content failed to show.
-                                    Log.d("Intestitial Ad", "The ad failed to show.");
-                                }
+                                mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                                    @Override
+                                    public void onAdDismissedFullScreenContent() {
+                                        // Called when fullscreen content is dismissed.
+                                        Log.d("Intestitial Ad", "The ad was dismissed.");
+                                    }
 
-                                @Override
-                                public void onAdShowedFullScreenContent() {
-                                    // Called when fullscreen content is shown.
-                                    // Make sure to set your reference to null so you don't
-                                    // show it a second time.
-                                    mInterstitialAd = null;
-                                    Log.d("Intestitial Ad", "The ad was shown.");
-                                }
-                            });
+                                    @Override
+                                    public void onAdFailedToShowFullScreenContent(AdError adError) {
+                                        // Called when fullscreen content failed to show.
+                                        Log.d("Intestitial Ad", "The ad failed to show.");
+                                    }
+
+                                    @Override
+                                    public void onAdShowedFullScreenContent() {
+                                        // Called when fullscreen content is shown.
+                                        // Make sure to set your reference to null so you don't
+                                        // show it a second time.
+                                        mInterstitialAd = null;
+                                        Log.d("Intestitial Ad", "The ad was shown.");
+                                    }
+                                });
+                            }
+
+                            Log.i("Intestitial Ad", "onAdLoaded");
                         }
 
-                        Log.i("Intestitial Ad", "onAdLoaded");
-                    }
-
-                    @Override
-                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-                        // Handle the error
-                        Log.i("Intestitial Ad", loadAdError.getMessage());
-                        mInterstitialAd = null;
-                    }
-                });
-
+                        @Override
+                        public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                            // Handle the error
+                            Log.i("Intestitial Ad", loadAdError.getMessage());
+                            mInterstitialAd = null;
+                        }
+                    });
+        }
         //handleIntent(getIntent());
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        //handleIntent(intent);
     }
-
-    /*
-    private void handleIntent(Intent intent) {
-        Bundle x = intent.getExtras();
-        String user_id = intent.getStringExtra("userid1");
-        if (user_id != null)
-            Log.d("TAG", user_id);
-    }
-    */
 
     @Override
     public void onResume() {
         super.onResume();
-
-        //handleIntent(getIntent());
 
         userid = SharedPreferenceUtils.getInstance(context).getLongValue(context.getString(R.string.user_id), 0);
 
@@ -216,6 +209,8 @@ public class MainActivity extends AppCompatActivity implements
 
         NotificationManager nm = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         nm.cancelAll();
+
+        new GetPurchaseTask(context, userid).execute();
     }
 
     private void selectTabIndex(final int index) {
@@ -429,7 +424,6 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public void onUserStore() {
-        Toasty.success(this, "Tienda", Toast.LENGTH_SHORT, true).show();
         Intent i;
         i = new Intent(this, StoreActivity.class);
 
@@ -544,5 +538,11 @@ public class MainActivity extends AppCompatActivity implements
             pviewmodel.insert(p);
         } catch (Exception w) {
         }
+    }
+
+    @Override
+    public void OnTaskCompletedGetCompra(int membresia, String vencimiento) {
+        SharedPreferenceUtils.getInstance(context).setValue("membresia", membresia);
+        SharedPreferenceUtils.getInstance(context).setValue("vencimiento", vencimiento);
     }
 }

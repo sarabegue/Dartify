@@ -22,10 +22,11 @@ public class MatchCard {
     private String resource1;
     private String resource2;
     private Boolean oculto;
+    private int tipomatch = 1;
 
     private int visto;
 
-    public MatchCard(String remoteId, long userid1, long userid2, String texto1, String texto2, String texto3, String resource1, String resource2, int visto) {
+    public MatchCard(String remoteId, long userid1, long userid2, String texto1, String texto2, String texto3, String resource1, String resource2, int visto, int tipomatch) {
         this.remoteId = remoteId;
         this.userid1 = userid1;
         this.userid2 = userid2;
@@ -36,6 +37,7 @@ public class MatchCard {
         this.resource2 = resource2;
         this.visto = visto;
         this.oculto = false;
+        this.tipomatch = tipomatch;
     }
 
     public long getUserid1() {
@@ -128,5 +130,13 @@ public class MatchCard {
 
     public void setOculto(Boolean oculto) {
         this.oculto = oculto;
+    }
+
+    public void setTipomatch(int tipomatch) {
+        this.tipomatch = tipomatch;
+    }
+
+    public int getTipomatch() {
+        return this.tipomatch;
     }
 }

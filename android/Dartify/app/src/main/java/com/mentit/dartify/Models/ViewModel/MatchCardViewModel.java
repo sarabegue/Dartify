@@ -40,13 +40,13 @@ public class MatchCardViewModel extends AndroidViewModel {
         return repository.getMatch(userid);
     }
 
-    public LiveData<List<MatchCard>> getData(long userid) {
-        data = repository.getAllDataCards(userid);
+    public LiveData<List<MatchCard>> getData(long userid, int tipomatch) {
+        data = repository.getAllDataCards(userid, tipomatch);
         return data;
     }
 
-    public LiveData<List<MatchCard>> getDataCard(long userid2) {
-        data = repository.getCard(userid2);
+    public LiveData<List<MatchCard>> getDataCard(long userid2, int tipomatch) {
+        data = repository.getCard(userid2, tipomatch);
         return data;
     }
 }

@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import com.mentit.dartify.Models.MatchCard;
 
-@Database(entities = {MatchCard.class}, version = 13)
+@Database(entities = {MatchCard.class}, version = 14)
 public abstract class MatchDatabase extends RoomDatabase {
     private static MatchDatabase instance;
     private static Context context;

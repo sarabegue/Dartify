@@ -507,7 +507,8 @@ public class ConfigureProfileActivity extends AppCompatActivity {
     private void fillEstatura() {
         estaturaData.clear();
         estaturaData.add(new ElementoLista(0, "-"));
-        for (int index = 50; index < 200; index++) {
+        estaturaData.add(new ElementoLista(1, "Menos de 120 cm"));
+        for (int index = 120; index < 200; index++) {
             ElementoLista e = new ElementoLista(index);
             e.setUnidad("cm");
             estaturaData.add(e);
@@ -517,7 +518,8 @@ public class ConfigureProfileActivity extends AppCompatActivity {
     private void fillPeso() {
         pesoData.clear();
         pesoData.add(new ElementoLista(0, "-"));
-        for (int index = 50; index < 150; index++) {
+        pesoData.add(new ElementoLista(1, "Menos de 45 kg"));
+        for (int index = 45; index < 150; index++) {
             ElementoLista e = new ElementoLista(index);
             e.setUnidad("kg");
             pesoData.add(e);
@@ -571,6 +573,7 @@ public class ConfigureProfileActivity extends AppCompatActivity {
         spiritualityData.add(new ElementoLista(8, "Protestante"));
         spiritualityData.add(new ElementoLista(9, "Espiritual pero no religioso"));
         spiritualityData.add(new ElementoLista(10, "Ateo"));
+        spiritualityData.add(new ElementoLista(11, "Agnosticismo"));
     }
 
     private void fillEstadoCivil() {
@@ -600,17 +603,17 @@ public class ConfigureProfileActivity extends AppCompatActivity {
     private void fillAlcohol() {
         alcoholData.clear();
         alcoholData.add(new ElementoLista(0, "-"));
-        alcoholData.add(new ElementoLista(1, "No"));
-        alcoholData.add(new ElementoLista(2, "Ocasionalmente"));
-        alcoholData.add(new ElementoLista(3, "Sí"));
+        alcoholData.add(new ElementoLista(1, "Nunca"));
+        alcoholData.add(new ElementoLista(2, "Socialmente"));
+        alcoholData.add(new ElementoLista(3, "Regularmente"));
     }
 
     private void fillFuma() {
         fumaData.clear();
         fumaData.add(new ElementoLista(0, "-"));
-        fumaData.add(new ElementoLista(1, "No"));
-        fumaData.add(new ElementoLista(2, "Ocasionalmente"));
-        fumaData.add(new ElementoLista(3, "Sí"));
+        fumaData.add(new ElementoLista(1, "Nunca"));
+        fumaData.add(new ElementoLista(2, "Socialmente"));
+        fumaData.add(new ElementoLista(3, "Regularmente"));
     }
 
 }

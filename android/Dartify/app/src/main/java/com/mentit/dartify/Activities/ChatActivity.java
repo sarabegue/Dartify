@@ -2,6 +2,7 @@ package com.mentit.dartify.Activities;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -31,8 +32,8 @@ import com.mentit.dartify.HelperClasses.SharedPreferenceUtils;
 import com.mentit.dartify.HelperClasses.WhiteBorderTransformation;
 import com.mentit.dartify.Models.MatchCard;
 import com.mentit.dartify.Models.MensajeChat;
-import com.mentit.dartify.Models.ViewModel.MensajeChatViewModel;
 import com.mentit.dartify.Models.ViewModel.MatchCardViewModel;
+import com.mentit.dartify.Models.ViewModel.MensajeChatViewModel;
 import com.mentit.dartify.R;
 import com.mentit.dartify.Tasks.Match.PutUserBlockedReportStatusTask;
 import com.mentit.dartify.util.FormatUtil;
@@ -97,6 +98,7 @@ public class ChatActivity extends AppCompatActivity implements PutUserBlockedRep
 
         sendButton.setOnClickListener(enviarMensaje);
         blockButton.setOnClickListener(bloquearUsuario);
+        imageAvatar1.setOnClickListener(verPerfilUsuario);
 
         popupA = new LongPressPopupBuilder(context)
                 .setTarget(stickerImageButton)
@@ -112,9 +114,11 @@ public class ChatActivity extends AppCompatActivity implements PutUserBlockedRep
     public void onResume() {
         super.onResume();
 
+        int membresia = SharedPreferenceUtils.getInstance(context).getIntValue("membresia", 1);
+
         matchCardViewModel = ViewModelProviders.of(this).get(MatchCardViewModel.class);
         new GetUserAsyncTask(this, userid2).execute();
-        matchCardViewModel.getDataCard(userid2).observe(this, data -> {
+        matchCardViewModel.getDataCard(userid2, membresia).observe(this, data -> {
             new GetUserAsyncTask(this, userid2).execute();
         });
 
@@ -137,6 +141,20 @@ public class ChatActivity extends AppCompatActivity implements PutUserBlockedRep
                 textMessage.setText("");
                 hideKeyboard();
             }
+        }
+    };
+
+    private View.OnClickListener verPerfilUsuario = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent i;
+            i = new Intent(context, ProfileActivity.class);
+
+            Bundle b = new Bundle();
+            b.putLong("id", userid2);
+
+            i.putExtras(b);
+            startActivity(i);
         }
     };
 

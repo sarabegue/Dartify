@@ -11,7 +11,7 @@ local.properties
 .gradle/
 .idea/
 android/Dartify/app/build/
-
+android/Dartify/app/schemas/
 # Signing files
 .signing/
 

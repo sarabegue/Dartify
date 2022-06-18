@@ -154,6 +154,7 @@
                 android:layout_below="@id/spinnerWeight"
                 android:layout_marginBottom="5dp"
                 android:text="@string/skin"
+                android:visibility="gone"
                 android:theme="@style/LabelForm" />
 
             <Spinner
@@ -164,6 +165,7 @@
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/rounded_edittext"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:textSize="20sp" />
 
             <TextView
@@ -173,6 +175,7 @@
                 android:layout_below="@id/spinnerSkin"
                 android:layout_marginBottom="5dp"
                 android:text="@string/hairtype"
+                android:visibility="gone"
                 android:theme="@style/LabelForm" />
 
             <Spinner
@@ -183,6 +186,7 @@
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/rounded_edittext"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:textSize="20sp" />
 
             <TextView
@@ -192,6 +196,7 @@
                 android:layout_below="@id/spinnerHairType"
                 android:layout_marginBottom="5dp"
                 android:text="@string/haircolor"
+                android:visibility="gone"
                 android:theme="@style/LabelForm" />
 
             <Spinner
@@ -202,6 +207,7 @@
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/rounded_edittext"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:textSize="20sp" />
 
             <TextView
@@ -211,6 +217,7 @@
                 android:layout_below="@id/spinnerHairColor"
                 android:layout_marginBottom="5dp"
                 android:text="@string/race"
+                android:visibility="gone"
                 android:theme="@style/LabelForm" />
 
             <Spinner
@@ -221,6 +228,7 @@
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/rounded_edittext"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:textSize="20sp" />
 
             <TextView
@@ -230,6 +238,7 @@
                 android:layout_below="@id/spinnerRace"
                 android:layout_marginBottom="5dp"
                 android:text="@string/occupation"
+                android:visibility="gone"
                 android:theme="@style/LabelForm" />
 
             <Spinner
@@ -240,6 +249,7 @@
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/rounded_edittext"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:textSize="20sp" />
 
             <TextView

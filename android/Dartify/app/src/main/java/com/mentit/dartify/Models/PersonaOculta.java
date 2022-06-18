@@ -1,10 +1,6 @@
 package com.mentit.dartify.Models;
 
 import androidx.room.Entity;
-import androidx.room.Index;
-import androidx.room.PrimaryKey;
-
-import com.mentit.dartify.util.FormatUtil;
 
 @Entity(tableName = "PersonaOculta", primaryKeys = {"userid1", "userid2"})
 public class PersonaOculta {

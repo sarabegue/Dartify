@@ -1,7 +1,5 @@
 package com.mentit.dartify.util;
 
-//import android.util.Log;
-
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.joda.time.Interval;

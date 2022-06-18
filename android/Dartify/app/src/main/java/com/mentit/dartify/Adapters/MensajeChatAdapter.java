@@ -8,7 +8,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import androidx.emoji.text.EmojiCompat;
 import androidx.emoji.widget.EmojiTextView;
 import androidx.recyclerview.widget.RecyclerView;
 

@@ -13,12 +13,12 @@
     <string name="myprofile">Mi Perfil</string>
     <string name="definechemistry">Define tu Química</string>
     <string name="mywall">Mi Muro</string>
-    <string name="justnow">¡Justo ahora!</string>
+    <string name="justnow">¡Justo Ahora!</string>
     <string name="filter">Filtro</string>
-    <string name="myfavorites">Mis favoritos</string>
-    <string name="blockedusers">Usuarios bloqueados</string>
-    <string name="logout">Cerrar sesión</string>
-    <string name="deleteaccount">Cancelar cuenta</string>
+    <string name="myfavorites">Mis Favoritos</string>
+    <string name="blockedusers">Usuarios Bloqueados</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="deleteaccount">Cancelar Cuenta</string>
     <string name="dartify">Dartify</string>
     <string name="iprefer">Prefiero conocer</string>
     <string name="age_range">Rango de edad</string>
@@ -91,8 +91,8 @@
     <string name="siblings">Hijos</string>
     <string name="civilstatus">Estado Civil</string>
     <string name="spirituality">Espiritualidad</string>
-    <string name="smoke">Fumo</string>
-    <string name="alcohol">Alcohol</string>
+    <string name="smoke">Soy fumador</string>
+    <string name="alcohol">Soy bebedor</string>
     <string name="scholarship">Escolaridad</string>
     <string name="occupation">Ocupación</string>
     <string name="race">Raza</string>
@@ -119,4 +119,5 @@
     <string name="fcm_message">FCM Message</string>
     <string name="msg_subscribe_failed">Falla al inscribir</string>
     <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="store_upgrade">Suscríbete</string>
 </resources>

@@ -443,7 +443,9 @@ public class RegisterActivity extends AppCompatActivity implements
             jsonObject.put("userid", usuarioRegistrar.getId());
 
             JSONArray jsonArray = new JSONArray();
-            for(int index = 0; index <= 5; index++){
+            int max = usuarioRegistrar.getFotografias().size() > 4 ? 4 : usuarioRegistrar.getFotografias().size();
+
+            for(int index = 0; index < max; index++){
                 Foto item = usuarioRegistrar.getFotografias().get(index);
                 JSONObject foto = new JSONObject();
                 foto.put("width", item.getAncho());

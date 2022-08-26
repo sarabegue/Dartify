@@ -6,7 +6,7 @@ android {
         applicationId "com.mentit.dartify"
         minSdkVersion 22
         targetSdkVersion 30
-        versionCode 30
+        versionCode 36
         versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
@@ -111,11 +111,13 @@ dependencies {
     annotationProcessor "androidx.room:room-compiler:$room_version"
     testImplementation "androidx.room:room-testing:$room_version"
 
-    def billing_version = "4.0.0"
+    def billing_version = "5.0.0"
     implementation "com.android.billingclient:billing:$billing_version"
 
     //ANUNCIOS
     implementation 'com.google.android.gms:play-services-ads:20.5.0'
+
+    implementation "com.google.guava:guava:31.1-android"
 
     //POR REMOVER
 

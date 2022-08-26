@@ -105,6 +105,10 @@ public class PeopleAdapter extends RecyclerView.Adapter<PeopleAdapter.ViewHolder
                 imageIcon.setVisibility(View.VISIBLE);
                 layout.setBackgroundResource(R.drawable.layout_border_person2);
             }
+            if (tipo == 3) {
+                imageIcon.setVisibility(View.VISIBLE);
+                layout.setBackgroundResource(R.drawable.layout_border_person3);
+            }
         }
 
         @Override

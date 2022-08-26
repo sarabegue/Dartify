@@ -22,18 +22,17 @@ import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.BillingClientStateListener;
 import com.android.billingclient.api.BillingFlowParams;
 import com.android.billingclient.api.BillingResult;
+import com.android.billingclient.api.ProductDetails;
 import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.PurchasesUpdatedListener;
-import com.android.billingclient.api.SkuDetails;
-import com.android.billingclient.api.SkuDetailsParams;
-import com.android.billingclient.api.SkuDetailsResponseListener;
+import com.android.billingclient.api.QueryProductDetailsParams;
+import com.google.common.collect.ImmutableList;
 import com.mentit.dartify.HelperClasses.SharedPreferenceUtils;
 import com.mentit.dartify.R;
 import com.mentit.dartify.Tasks.Tienda.PutPurchaseTask;
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ViewListener;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class StoreActivity extends AppCompatActivity implements PutPurchaseTask.OnTaskCompleted {
@@ -174,74 +173,103 @@ public class StoreActivity extends AppCompatActivity implements PutPurchaseTask.
     private void getSuscriptions() {
         Activity activity = this;
 
-        List<String> skuList = new ArrayList<>();
-        skuList.add("suscripcion_001");
-        skuList.add("suscripcion_002");
-        skuList.add("suscripcion_003");
+        ImmutableList<QueryProductDetailsParams.Product> productList = ImmutableList.of(QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId("suscripcion_001")
+                        .setProductType(BillingClient.ProductType.SUBS)
+                        .build(),
+                QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId("suscripcion_002")
+                        .setProductType(BillingClient.ProductType.SUBS)
+                        .build(),
+                QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId("suscripcion_003")
+                        .setProductType(BillingClient.ProductType.SUBS)
+                        .build());
 
-        SkuDetailsParams params = SkuDetailsParams
-                .newBuilder()
-                .setSkusList(skuList)
-                .setType(BillingClient.SkuType.SUBS)
+        QueryProductDetailsParams params = QueryProductDetailsParams.newBuilder()
+                .setProductList(productList)
                 .build();
 
-        billingClient.querySkuDetailsAsync(params,
-                new SkuDetailsResponseListener() {
-                    @Override
-                    public void onSkuDetailsResponse(BillingResult billingResult,
-                                                     List<SkuDetails> list) {
-                        SkuDetails sk1 = list.get(0);
-                        SkuDetails sk2 = list.get(1);
-                        SkuDetails sk3 = list.get(2);
+        billingClient.queryProductDetailsAsync(params, (billingResult, list) -> {
+            ProductDetails sk1 = list.get(0);
+            ProductDetails sk2 = list.get(1);
+            ProductDetails sk3 = list.get(2);
 
-                        TextView tvprecio1 = findViewById(R.id.tvprecio1);
-                        TextView tvprecio2 = findViewById(R.id.tvprecio2);
-                        TextView tvprecio3 = findViewById(R.id.tvprecio3);
+            TextView tvprecio1 = findViewById(R.id.tvprecio1);
+            TextView tvprecio2 = findViewById(R.id.tvprecio2);
+            TextView tvprecio3 = findViewById(R.id.tvprecio3);
 
-                        tvprecio1.setText(sk1.getPrice());
-                        tvprecio2.setText(sk2.getPrice());
-                        tvprecio3.setText(sk3.getPrice());
+            tvprecio1.setText(sk1.getSubscriptionOfferDetails().get(0).getPricingPhases().getPricingPhaseList().get(0).getFormattedPrice());
+            tvprecio2.setText(sk2.getSubscriptionOfferDetails().get(0).getPricingPhases().getPricingPhaseList().get(0).getFormattedPrice());
+            tvprecio3.setText(sk3.getSubscriptionOfferDetails().get(0).getPricingPhases().getPricingPhaseList().get(0).getFormattedPrice());
 
-                        sk1.getPrice();
-                        sk1.getTitle();
-                        sk1.getDescription();
-                        sk1.getSubscriptionPeriod();
-                        sk1.getPriceCurrencyCode();
+            Button btn1 = findViewById(R.id.buttonComprar1);
+            Button btn2 = findViewById(R.id.buttonComprar2);
+            Button btn3 = findViewById(R.id.buttonComprar3);
 
-                        Log.d("onSkuDetailsResponse", "");
+            btn1.setOnClickListener(v -> {
+                String offerToken = sk1.getSubscriptionOfferDetails().get(0).getOfferToken();
 
-                        Button btn1 = findViewById(R.id.buttonComprar1);
-                        Button btn2 = findViewById(R.id.buttonComprar2);
-                        Button btn3 = findViewById(R.id.buttonComprar3);
+                ImmutableList<BillingFlowParams.ProductDetailsParams> productDetailsParamsList =
+                        ImmutableList.of(
+                                BillingFlowParams.ProductDetailsParams.newBuilder()
+                                        .setProductDetails(sk1)
+                                        .setOfferToken(offerToken)
+                                        .build()
+                        );
 
-                        btn1.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                billingClient.launchBillingFlow(
-                                        activity,
-                                        BillingFlowParams.newBuilder().setSkuDetails(sk1).build());
-                            }
-                        });
+                BillingFlowParams billingFlowParams = BillingFlowParams.newBuilder()
+                        .setProductDetailsParamsList(productDetailsParamsList)
+                        .build();
 
-                        btn2.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                billingClient.launchBillingFlow(
-                                        activity,
-                                        BillingFlowParams.newBuilder().setSkuDetails(sk2).build());
-                            }
-                        });
+                billingClient.launchBillingFlow(activity, billingFlowParams);
+            });
 
-                        btn3.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                billingClient.launchBillingFlow(
-                                        activity,
-                                        BillingFlowParams.newBuilder().setSkuDetails(sk3).build());
-                            }
-                        });
-                    }
-                });
+            btn2.setOnClickListener(v -> {
+                String offerToken = sk2.getSubscriptionOfferDetails().get(0).getOfferToken();
+
+                ImmutableList<BillingFlowParams.ProductDetailsParams> productDetailsParamsList =
+                        ImmutableList.of(
+                                BillingFlowParams.ProductDetailsParams.newBuilder()
+                                        .setProductDetails(sk2)
+                                        .setOfferToken(offerToken)
+                                        .build()
+                        );
+
+                BillingFlowParams billingFlowParams = BillingFlowParams.newBuilder()
+                        .setProductDetailsParamsList(productDetailsParamsList)
+                        .build();
+
+                billingClient.launchBillingFlow(activity, billingFlowParams);
+            });
+
+            btn3.setOnClickListener(v -> {
+                String offerToken = sk3.getSubscriptionOfferDetails().get(0).getOfferToken();
+
+                ImmutableList<BillingFlowParams.ProductDetailsParams> productDetailsParamsList =
+                        ImmutableList.of(
+                                BillingFlowParams.ProductDetailsParams.newBuilder()
+                                        .setProductDetails(sk3)
+                                        .setOfferToken(offerToken)
+                                        .build()
+                        );
+
+                BillingFlowParams billingFlowParams = BillingFlowParams.newBuilder()
+                        .setProductDetailsParamsList(productDetailsParamsList)
+                        .build();
+
+                billingClient.launchBillingFlow(activity, billingFlowParams);
+            });
+
+            /*
+            sk1.getPrice();
+            sk1.getTitle();
+            sk1.getDescription();
+            sk1.getSubscriptionPeriod();
+            sk1.getPriceCurrencyCode();
+            */
+
+        });
     }
 
     @Override
@@ -265,7 +293,7 @@ public class StoreActivity extends AppCompatActivity implements PutPurchaseTask.
                     }
             );
 
-            SharedPreferenceUtils.getInstance(context).setValue("membresia", 2);
+            SharedPreferenceUtils.getInstance(context).setValue("membresia", 3);
 
             Intent i = new Intent(StoreActivity.this, MainActivity.class);
             startActivity(i);

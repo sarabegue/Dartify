@@ -211,6 +211,14 @@ public class MainActivity extends AppCompatActivity implements
         nm.cancelAll();
 
         new GetPurchaseTask(context, userid).execute();
+
+        //INICIAR EL CHAT SI HAY UN USUARIO REGISTRADO
+        long useridchat = SharedPreferenceUtils.getInstance(context).getLongValue("useridchat", 0);
+
+        if (useridchat > 0) {
+            SharedPreferenceUtils.getInstance(context).setValue("useridchat", 0L);
+            startChat("chatRoom", useridchat);
+        }
     }
 
     private void selectTabIndex(final int index) {

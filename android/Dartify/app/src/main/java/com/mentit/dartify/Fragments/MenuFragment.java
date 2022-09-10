@@ -215,7 +215,7 @@ public class MenuFragment extends Fragment {
             case 3: {
                 title = "Sin anuncios";
                 img = R.drawable.store_cross;
-                col = R.color.store5;
+                col = R.color.store2;
                 break;
             }
         }

@@ -65,11 +65,14 @@ public class FacebookLoginActivity extends AppCompatActivity implements Download
 
             SharedPreferenceUtils.getInstance(context).setValue("useridchat", 0L);
             if (getIntent().getExtras() != null) {
-                SharedPreferenceUtils.getInstance(context).setValue("useridchat",
-                        Long.parseLong(getIntent().getExtras().getString("userid1"))
-                );
+                try {
+                    SharedPreferenceUtils.getInstance(context).setValue("useridchat",
+                            Long.parseLong(getIntent().getExtras().getString("userid1"))
+                    );
+                } catch (Exception w) {
+                }
             }
-            
+
             Intent i;
             i = new Intent(this, MainActivity.class);
             startActivity(i);

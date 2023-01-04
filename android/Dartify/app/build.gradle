@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     namespace 'com.mentit.dartify'
-    compileSdkVersion 31
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.mentit.dartify"
         minSdkVersion 22
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode 36
         versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -66,7 +66,7 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
     implementation 'androidx.emoji:emoji-bundled:1.1.0'
     implementation 'androidx.emoji:emoji:1.1.0'
@@ -95,9 +95,9 @@ dependencies {
     //Widget para elegir rangos - uso en registro
     implementation 'io.apptik.widget:multislider:1.3'
 
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.4.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     //CardStackView
     def cardstackview_version = "2.3.4"
